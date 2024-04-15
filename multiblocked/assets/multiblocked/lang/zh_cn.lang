@@ -1,0 +1,12 @@
+tile.ivtechsky.basic_crusher.name=基础碎石机
+ivtechsky.basic_crusher.description=基础碎石机
+multiblocked.recipe_map.basic_crusher=破碎
+basic_crusher.name=基础碎石机
+tile.sakuracloud.primordium_fusion.name=原基聚变器
+sakuracloud.primordium_fusion.description=原基聚变器
+multiblocked.recipe_map.primordium=原基聚变
+primordium.name=原基聚变
+tile.sakuracloud.nether_star_reactor.name=下界之星聚变仪
+sakuracloud.nether_star_reactor.description=下界之星聚变仪
+multiblocked.recipe_map.nether_star_react=下界之星聚变
+nether_star_fusion.name=下界之星聚变

@@ -1,0 +1,121 @@
+{
+  "name": "nether_star_reactor",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "nether_react_1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:nether_star\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"solarflux:solar_panel_wyvern\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nether_star_react_extreme",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"extendedcrafting:storage\",Count:64,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"solarflux:solar_panel_draconic\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 10240000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8b53a18a-a7a9-4328-9fa7-6448cf7a1764",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:nether_star\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"solarflux:solar_panel_8\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"minecraft:skull\",Count:3,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500000
+          }
+        ]
+      }
+    }
+  ]
+}
