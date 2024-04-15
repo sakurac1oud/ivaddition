@@ -2,7 +2,7 @@
 本附属纯粹个人爱好所做，仍处于开发中，平衡性以及稳定性皆不可保证，切勿跳脸非附属玩家
 
 # 如何使用
-1. 将 `multiblock` 文件夹放入 `<你的iv所在目录>/config` 中
+1. 将 `multiblocked` 文件夹放入 `<你的iv所在目录>/config` 中
 2. 将 `mbdaddition` 文件夹放入 `<你的iv所在目录>/scripts` 中
 
 # 目前进度
