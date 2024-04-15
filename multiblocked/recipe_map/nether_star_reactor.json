@@ -5,12 +5,37 @@
   "fuelThreshold": 100,
   "recipes": [
     {
-      "uid": "nether_react_1",
+      "uid": "cf1b40a6-fa17-434a-a49f-1cca5ff0606b",
       "duration": 1,
       "inputs": {
         "item": [
           {
-            "chance": 0.5,
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:material\",Count:1,Damage:140s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 66666
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nether_react_1",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
             "content": {
               "amount": 64,
               "matches": [
@@ -33,14 +58,14 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 5000000
+            "content": 50000000
           }
         ]
       }
     },
     {
       "uid": "nether_star_react_extreme",
-      "duration": 1,
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -67,7 +92,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 10240000
+            "content": 2147483647
           }
         ]
       }
@@ -78,7 +103,7 @@
       "inputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.5,
             "content": {
               "amount": 1,
               "matches": [
@@ -112,7 +137,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 500000
+            "content": 600000
           }
         ]
       }

@@ -6,23 +6,17 @@
   "recipes": [
     {
       "uid": "primordium",
-      "duration": 1200,
+      "duration": 100,
       "inputs": {
         "item": [
           {
-            "chance": 1.0,
+            "chance": 0.0,
             "content": {
-              "amount": 16,
+              "amount": 64,
               "matches": [
-                "{id:\"prodigytech:energion_dust\",Count:16,Damage:0s}"
+                "{id:\"prodigytech:energion_dust\",Count:64,Damage:0s}"
               ]
             }
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 20000
           }
         ]
       },
@@ -31,29 +25,37 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 8,
+              "amount": 16,
               "matches": [
-                "{id:\"prodigytech:primordium\",Count:8,Damage:0s}"
+                "{id:\"prodigytech:primordium\",Count:16,Damage:0s}"
               ]
             }
           },
           {
             "chance": 0.5,
             "content": {
-              "amount": 8,
+              "amount": 16,
               "matches": [
-                "{id:\"prodigytech:primordium\",Count:8,Damage:0s}"
+                "{id:\"prodigytech:primordium\",Count:16,Damage:0s}"
               ]
             }
           },
           {
             "chance": 0.25,
             "content": {
-              "amount": 8,
+              "amount": 16,
               "matches": [
-                "{id:\"prodigytech:primordium\",Count:8,Damage:0s}"
+                "{id:\"prodigytech:primordium\",Count:16,Damage:0s}"
               ]
             }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 2000
           }
         ]
       }
