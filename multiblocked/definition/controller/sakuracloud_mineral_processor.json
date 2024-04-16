@@ -31,7 +31,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "mineral_prosessor",
+  "recipeMap": "mineral_processor",
   "basePattern": {
     "structureDir": [
       "RIGHT",
@@ -64,7 +64,7 @@
         "DHD"
       ],
       [
-        "MBN",
+        "MON",
         "C@C",
         "DED",
         "   "
@@ -101,15 +101,6 @@
           }
         ],
         "type": "states"
-      },
-      "a": {
-        "capability": "item",
-        "type": "capability",
-        "disableRenderFormed": true,
-        "minCount": 1,
-        "maxCount": 1,
-        "previewCount": 1,
-        "io": "OUT"
       },
       "controller": {
         "location": "sakuracloud:mineral_processor",
@@ -219,6 +210,10 @@
       },
       "any": {
         "type": "any"
+      },
+      "O": {
+        "capability": "item",
+        "type": "capability"
       }
     },
     "symbolMap": {
@@ -240,10 +235,7 @@
       "D": [
         "D"
       ],
-      "E": [
-        "a",
-        "c"
-      ],
+      "E": [],
       "F": [
         "F"
       ],
@@ -270,6 +262,9 @@
       ],
       "N": [
         "b"
+      ],
+      "O": [
+        "O"
       ]
     }
   }
