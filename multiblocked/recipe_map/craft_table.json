@@ -320,7 +320,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"environmentaltech:litherite\",Count:1,Damage:0s}"
+                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -338,7 +338,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"environmentaltech:litherite\",Count:1,Damage:0s}"
+                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -356,7 +356,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"environmentaltech:void_ore_miner_cont_1\",Count:1,Damage:0s}"
+                "{id:\"enderio:item_material\",Count:1,Damage:53s}"
               ]
             }
           },
@@ -374,7 +374,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"environmentaltech:litherite\",Count:1,Damage:0s}"
+                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -392,7 +392,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"environmentaltech:litherite\",Count:1,Damage:0s}"
+                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
               ]
             }
           }
