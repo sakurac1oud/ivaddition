@@ -209,6 +209,108 @@
       }
     },
     {
+      "uid": "8f7a19e8-e80a-4d42-9f68-2605e06d9c02",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"sakuracloud:craft_table\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "770dd3ef-8952-4d01-bcb2-957a40a3f740",
       "duration": 1,
       "inputs": {

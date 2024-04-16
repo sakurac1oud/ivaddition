@@ -121,8 +121,8 @@
   },
   "recipeMap": "craft_table",
   "catalyst": "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}",
-  "consumeCatalyst": "NOT_CONSUMED",
-  "noNeedController": false,
+  "consumeCatalyst": "CONSUMED",
+  "noNeedController": true,
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -138,7 +138,7 @@
       [
         "AAA",
         "@AA",
-        "AAA"
+        "BAA"
       ],
       [
         "AAA",
@@ -173,14 +173,22 @@
       "controller": {
         "location": "sakuracloud:craft_table",
         "type": "component"
+      },
+      "B": {
+        "capability": "item",
+        "type": "capability"
       }
     },
     "symbolMap": {
       "@": [
+        "A",
         "controller"
       ],
       "A": [
         "A"
+      ],
+      "B": [
+        "B"
       ]
     }
   }
