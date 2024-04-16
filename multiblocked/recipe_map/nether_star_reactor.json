@@ -30,16 +30,16 @@
       }
     },
     {
-      "uid": "nether_react_1",
-      "duration": 100,
+      "uid": "nether_star_react_extreme",
+      "duration": 10,
       "inputs": {
         "item": [
           {
-            "chance": 0.0,
+            "chance": 0.5,
             "content": {
-              "amount": 64,
+              "amount": 128,
               "matches": [
-                "{id:\"minecraft:nether_star\",Count:64,Damage:0s}"
+                "{id:\"extendedcrafting:storage\",Count:128,Damage:2s}"
               ]
             }
           },
@@ -58,41 +58,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 50000000
-          }
-        ]
-      }
-    },
-    {
-      "uid": "nether_star_react_extreme",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 0.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"extendedcrafting:storage\",Count:64,Damage:2s}"
-              ]
-            }
-          },
-          {
-            "chance": 0.0,
-            "content": {
-              "amount": 5,
-              "matches": [
-                "{id:\"solarflux:solar_panel_draconic\",Count:5,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 2147483647
+            "content": 999999999
           }
         ]
       }

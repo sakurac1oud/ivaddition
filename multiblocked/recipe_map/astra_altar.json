@@ -1,0 +1,239 @@
+{
+  "name": "astral_altar",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "1741b8f7-bbe3-4ffb-acbd-94a6de96308f",
+      "duration": 100,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6561ae9a-5cf2-450e-80c1-b060cd560ee9",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:glass_pane\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:16,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a30df609-d225-46f9-b035-c84792edc842",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:sand\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 1000
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomsandore\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6280a905-3c51-4418-956b-22eb0360dd67",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:clock\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:10000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemtunedcelestialcrystal\",Count:1,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1},constellationName:\"astralsorcery.constellation.horologium\"}}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c16a293a-a1c2-4cc6-a8cd-a43d1452f870",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:10000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:itemcelestialcrystal\",Count:1,Damage:0s,tag:{astralsorcery:{crystalProperties:{size:900,purity:100,collectiveCapability:100,fract:0,sizeOverride:-1}}}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "90c84c75-f2a7-4039-8a43-5e7c52320c21",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomsandore\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:10,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

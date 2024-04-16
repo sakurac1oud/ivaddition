@@ -1,0 +1,378 @@
+{
+  "version": 2,
+  "location": "sakuracloud:astral_altar",
+  "traits": {
+    "starlight_as": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 31,
+      "y": 73,
+      "width": 120,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 114514,
+      "passiveStarlight": true
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "astralsorcery:blockwell",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "lightEmissive": 15
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "astral_altar",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAAB C BAAA",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "ADDAAAAADDA",
+        " E       E ",
+        " F       F ",
+        " F       F ",
+        " GA     AG ",
+        "           "
+      ],
+      [
+        "ADHHHHHHHDA",
+        "  I  I  I  ",
+        "           ",
+        "           ",
+        " A       A ",
+        "  AAA AAA  "
+      ],
+      [
+        "JAHHHHHHHAK",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  AC   CA  "
+      ],
+      [
+        " AHHHHHHHA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  A     A  "
+      ],
+      [
+        "CAHHHHHHHAC",
+        "  @  L  I  ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        " AHHHHHHHA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  A     A  "
+      ],
+      [
+        "JAHHHHHHHAK",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  AC   CA  "
+      ],
+      [
+        "ADHHHHHHHDA",
+        "  I  I  I  ",
+        "           ",
+        "           ",
+        " A       A ",
+        "  AAA AAA  "
+      ],
+      [
+        "ADDAAAAADDA",
+        " E       E ",
+        " F       F ",
+        " F       F ",
+        " GA     AG ",
+        "           "
+      ],
+      [
+        "AAAM C MAAA",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "sakuracloud:astral_altar",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "storagedrawers:basicdrawers",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "minecraft:glowstone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "astralsorcery:blockwell",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "storagedrawers:basicdrawers",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "storagedrawers:basicdrawers",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "astralsorcery:blockaltar",
+            "meta": 2
+          },
+          {
+            "id": "astralsorcery:blockaltar",
+            "meta": 3
+          },
+          {
+            "id": "packagedastral:constellation_crafter",
+            "meta": 0
+          },
+          {
+            "id": "packagedastral:trait_crafter",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "N": {
+        "capability": "item",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J",
+        "M",
+        "N"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": []
+    }
+  }
+}
