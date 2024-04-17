@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "location": "sakuracloud:plastic_maker",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 34,
+      "y": 69,
+      "width": 120,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 1000000,
+      "maxReceive": 5000000,
+      "maxExtract": 5000000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "pneumaticcraft:compressed_iron_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "plastic_maker",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " AAA ",
+        " BCB ",
+        "  C  ",
+        "  C  ",
+        "  C  ",
+        "     "
+      ],
+      [
+        "AAAAA",
+        "DEFEG",
+        " EFE ",
+        " EFE ",
+        " EFE ",
+        "  E  "
+      ],
+      [
+        "@AAAA",
+        "HFIFJ",
+        "HFIFJ",
+        "HFIFJ",
+        "HFIFJ",
+        " EKE "
+      ],
+      [
+        "AAAAA",
+        "DEFEG",
+        " EFE ",
+        " EFE ",
+        " EFE ",
+        "  E  "
+      ],
+      [
+        " AAA ",
+        " LML ",
+        "  M  ",
+        "  M  ",
+        "  M  ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "pneumaticcraft:compressed_iron_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "sakuracloud:plastic_maker",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "pneumaticcraft:heat_sink",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "extrautils2:ineffableglass",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "pneumaticcraft:refinery",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "minecraft:chest",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "pneumaticcraft:heat_sink",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "pneumaticcraft:fluid.plastic",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "pneumaticcraft:heat_sink",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_pyrotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "pneumaticcraft:heat_sink",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "O": {
+        "capability": "fluid",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "O"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "N"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "O"
+      ],
+      "M": [
+        "M"
+      ]
+    }
+  }
+}

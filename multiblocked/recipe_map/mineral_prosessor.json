@@ -6,7 +6,7 @@
   "recipes": [
     {
       "uid": "8bd9a2b0-ca08-4a09-bfc4-7d09630ee5d9",
-      "duration": 1,
+      "duration": 10,
       "inputs": {
         "item": [
           {
@@ -17,12 +17,6 @@
                 "{id:\"minecraft:emerald_ore\",Count:1,Damage:0s}"
               ]
             }
-          }
-        ],
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500
           }
         ]
       },
@@ -47,6 +41,14 @@
             }
           }
         ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
       }
     },
     {
@@ -65,7 +67,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 500
+            "content": 5000
           }
         ]
       },
@@ -74,7 +76,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotCopper"
             }
           }
@@ -100,18 +102,18 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 32,
+              "amount": 16,
               "matches": [
-                "{id:\"draconicevolution:draconium_ingot\",Count:32,Damage:0s}"
+                "{id:\"draconicevolution:draconium_ingot\",Count:16,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 32,
+              "amount": 16,
               "matches": [
-                "{id:\"draconicevolution:draconium_dust\",Count:32,Damage:0s}"
+                "{id:\"draconicevolution:draconium_dust\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -151,7 +153,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotTungsten"
             }
           }
@@ -183,7 +185,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotSilver"
             }
           }
@@ -305,7 +307,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotBoron"
             }
           }
@@ -369,7 +371,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotTin"
             }
           }
@@ -446,7 +448,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotMagnesium"
             }
           }
@@ -478,9 +480,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "matches": [
-                "{id:\"thermalfoundation:material\",Count:10,Damage:133s}"
+                "{id:\"thermalfoundation:material\",Count:5,Damage:133s}"
               ]
             }
           }
@@ -553,7 +555,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 5,
               "ore": "ingotAluminum"
             }
           }
@@ -585,7 +587,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 5,
               "ore": "ingotCobalt"
             }
           }
@@ -617,9 +619,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:10,Damage:0s}"
+                "{id:\"minecraft:iron_ingot\",Count:5,Damage:0s}"
               ]
             }
           }
@@ -651,7 +653,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotGold"
             }
           }
@@ -683,7 +685,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotZinc"
             }
           }
@@ -758,7 +760,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotOsmium"
             }
           }
@@ -790,7 +792,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotTitanium"
             }
           }
@@ -822,7 +824,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotThorium"
             }
           }
@@ -886,7 +888,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotPlatinum"
             }
           }
@@ -918,7 +920,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 5,
               "ore": "ingotLead"
             }
           }
@@ -950,7 +952,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotUranium"
             }
           }
@@ -982,7 +984,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotArdite"
             }
           }
@@ -1014,7 +1016,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 10,
+              "amount": 5,
               "ore": "ingotAluminum"
             }
           }
