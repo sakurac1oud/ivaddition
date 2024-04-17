@@ -1,0 +1,384 @@
+{
+  "name": "terra_altar",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "453fa312-809c-4876-bb93-5aadb9196b8f",
+      "duration": 5,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"heiseiDream\"}}",
+                "{id:\"botania:floatingspecialflower\",Count:1,Damage:0s,tag:{type:\"heiseiDream\"}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"shulk_me_not\"}}",
+                "{id:\"botania:floatingspecialflower\",Count:1,Damage:0s,tag:{type:\"shulk_me_not\"}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderio:item_soul_vial\",Count:1,Damage:1s,tag:{entityId:\"minecraft:shulker\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 300000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5642b0bb-210b-438a-866b-ffeefe47484b",
+      "duration": 72000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"prodigytech:zorrasteel_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"randomthings:stableenderpearl\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal_empowered\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:storage\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e83f255e-d268-4d51-9ba6-95da2269dcd0",
+      "duration": 1600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"endoflame\"}}",
+                "{id:\"botania:floatingspecialflower\",Count:1,Damage:0s,tag:{type:\"endoflame\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 200
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7b11aabf-02a5-4a16-bd48-3c6f0ab714e9",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"extrabotany:nightmarefuel\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"extrabotany:material\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d9d9c754-b4c0-43a9-ae20-dde1f1d17b22",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:livingwood\",Count:1,Damage:5s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"extrabotany:nightmarefuel\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "67836ba0-4738-4e69-a673-d21ee8f1a217",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:pylon\",Count:4,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:beacon\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:6,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:4,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"botanicadds:gaia_shard\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b1d7562f-f644-4858-8b04-bcd153bf74d6",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:specialflower\",Count:1,Damage:0s,tag:{type:\"entropinnyum\"}}",
+                "{id:\"botania:floatingspecialflower\",Count:1,Damage:0s,tag:{type:\"entropinnyum\"}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:tnt\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 500000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6f8ba178-83c6-4044-bdc4-b7b28b292ff9",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 750000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
