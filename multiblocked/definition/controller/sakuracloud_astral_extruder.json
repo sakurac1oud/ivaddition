@@ -11,7 +11,7 @@
       "height": 18,
       "texture": "multiblocked:textures/gui/energy_bar.png",
       "fillDirection": 0,
-      "capacity": 20000,
+      "capacity": 30000,
       "passiveStarlight": true
     }
   },
