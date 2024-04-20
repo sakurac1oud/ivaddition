@@ -120,7 +120,7 @@
     }
   },
   "recipeMap": "craft_table",
-  "catalyst": "{id:\"minecraft:planks\",Count:1,Damage:0s}",
+  "catalyst": "{id:\"minecraft:crafting_table\",Count:1,Damage:0s}",
   "consumeCatalyst": "CONSUMED",
   "noNeedController": true,
   "basePattern": {
