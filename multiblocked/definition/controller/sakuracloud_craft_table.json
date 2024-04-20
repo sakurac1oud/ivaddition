@@ -120,7 +120,7 @@
     }
   },
   "recipeMap": "craft_table",
-  "catalyst": "{id:\"extendedcrafting:crafting_table\",Count:1,Damage:0s}",
+  "catalyst": "{id:\"minecraft:planks\",Count:1,Damage:0s}",
   "consumeCatalyst": "CONSUMED",
   "noNeedController": true,
   "basePattern": {
@@ -166,6 +166,10 @@
           {
             "id": "extendedcrafting:crafting_table",
             "meta": 0
+          },
+          {
+            "id": "minecraft:crafting_table",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -188,6 +192,7 @@
         "A"
       ],
       "B": [
+        "A",
         "B"
       ]
     }
