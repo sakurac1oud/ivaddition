@@ -328,7 +328,7 @@
     },
     {
       "uid": "6f8ba178-83c6-4044-bdc4-b7b28b292ff9",
-      "duration": 1,
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -373,7 +373,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:2,Damage:0s}"
+                "{id:\"botania:manaresource\",Count:2,Damage:4s}"
               ]
             }
           }

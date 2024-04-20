@@ -20,7 +20,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -65,7 +65,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -107,7 +107,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -149,7 +149,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -191,7 +191,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -233,7 +233,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -275,7 +275,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -317,7 +317,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -359,7 +359,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -401,7 +401,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -443,7 +443,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -485,7 +485,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -527,7 +527,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -569,7 +569,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ],
         "forge_energy": [
@@ -609,7 +609,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
@@ -651,7 +651,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:1000}"
+            "content": "{FluidName:\"oil\",Amount:8000}"
           }
         ]
       },
