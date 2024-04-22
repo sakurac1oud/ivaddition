@@ -1,0 +1,283 @@
+{
+  "version": 2,
+  "location": "sakuracloud:essential_altar",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "x": 79,
+        "y": 67,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"thaumicbases:dustblock\\\",Count:1,Damage:0s}\""
+        ]
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "thaumcraft:smelter_basic",
+          "meta": 10
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "thaumcraft",
+  "catalyst": "{id:\"thaumcraft:smelter_basic\",Count:1,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " AABAA ",
+        "       ",
+        "C     C",
+        "C     C",
+        "D     D",
+        "D     D"
+      ],
+      [
+        "AEBBBEA",
+        "  FAF  ",
+        " GE EG ",
+        " AAHAA ",
+        "       ",
+        "       "
+      ],
+      [
+        "ABIJIBA",
+        " F   F ",
+        " E   E ",
+        " A   A ",
+        "       ",
+        "       "
+      ],
+      [
+        "BBJIJBB",
+        " A @ A ",
+        "       ",
+        " H   H ",
+        "       ",
+        "       "
+      ],
+      [
+        "ABIJIBA",
+        " F   F ",
+        " E   E ",
+        " A   A ",
+        "       ",
+        "       "
+      ],
+      [
+        "AEBBBEA",
+        "  FAF  ",
+        " GE EG ",
+        " AAHAA ",
+        "       ",
+        "       "
+      ],
+      [
+        " AABAA ",
+        "       ",
+        "C     C",
+        "C     C",
+        "D     D",
+        "D     D"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thaumcraft:jar_normal",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "sakuracloud:essential_altar",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thaumcraft:stone_arcane_brick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_alchemical",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_alchemical_advanced",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "thaumcraft:stone_arcane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thaumcraft:pedestal_arcane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "minecraft:sea_lantern",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "thaumcraft:plank_silverwood",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "thaumcraft:amber_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "capability": "tc6_aspect",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A",
+        "K",
+        "any"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "K"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ]
+    }
+  }
+}

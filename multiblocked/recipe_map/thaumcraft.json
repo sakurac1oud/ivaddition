@@ -1,0 +1,358 @@
+{
+  "name": "thaumcraft",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "6435a4e5-42e4-4687-8113-052fae9753b0",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"thaumicbases:dustblock\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "aer",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "terra",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "ignis",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "aqua",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "ordo",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "perditio",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "vacuos",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "lux",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "motus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "gelum",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "vitreus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "metallum",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "victus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "mortuus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "potentia",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "permutatio",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "praecantatio",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "auram",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "alkimia",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "vitium",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "tenebrae",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "alienis",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "volatus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "herba",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "instrumentum",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "fabrico",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "machina",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "vinculum",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "spiritus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "cognitio",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "sensus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "aversio",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "praemunio",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "desiderium",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "exanimis",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "bestia",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "humanus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "fluctus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "sonus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "exitium",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "caeles",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "draco",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "infernum",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "ventus",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "visum",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "imperium",
+              "amount": 64
+            }
+          },
+          {
+            "chance": 0.25,
+            "content": {
+              "aspect": "sol",
+              "amount": 64
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -5,6 +5,42 @@
   "fuelThreshold": 100,
   "recipes": [
     {
+      "uid": "d2f8a071-17e3-4123-b403-53643919f5d8",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"thaumcraft:ingot\",Count:3,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"thaumcraft:ingot\",Count:3,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "8bd9a2b0-ca08-4a09-bfc4-7d09630ee5d9",
       "duration": 10,
       "inputs": {
@@ -47,6 +83,40 @@
           {
             "chance": 1.0,
             "content": 500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8d28c86b-bef7-4bd6-919b-66b8af7bb0f2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "oreAmber"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"thaumcraft:amber\",Count:8,Damage:0s}"
+              ]
+            }
           }
         ]
       }
@@ -624,6 +694,44 @@
                 "{id:\"minecraft:iron_ingot\",Count:5,Damage:0s}"
               ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a769d7b1-e95f-4fa8-b72f-0a7699668f86",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumcraft:metal_thaumium\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"thaumicbases:blockthauminite\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
           }
         ]
       }

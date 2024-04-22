@@ -1,0 +1,38 @@
+{
+  "name": "ender_pearl",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "3f3ea272-9d82-49f0-800e-70f7eb95f35f",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"minecraft:ender_eye\",Count:256,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

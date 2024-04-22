@@ -42,3 +42,16 @@ tile.sakuracloud.terra_altar.name=精灵？盖亚工坊~
 sakuracloud.plastic_maker.description=精灵？盖亚工坊~
 multiblocked.recipe_map.plastic_maker=盖亚~
 plastic_maker.name=精灵？盖亚工坊~
+tile.sakuracloud.ender_pearl.name=末影冶炼炉
+sakuracloud.ender_pearl.description=末影冶炼炉
+multiblocked.recipe_map.ender_pearl=末影冶炼炉
+ender_pearl.name=末影冶炼炉
+tile.sakuracloud.essential_altar.name=源质凝聚台
+sakuracloud.essential_altar.description=源质凝聚台
+multiblocked.recipe_map.thaumcraft=源质凝聚
+thaumcraft.name=源质凝聚
+tile.sakuracloud.exnihino_oil.name=虚空采油机
+sakuracloud.exnihino_oil.description=虚空采油机
+multiblocked.recipe_map.xnihino_oil=虚空采油
+xnihino_oil.name=虚空采油机
+
