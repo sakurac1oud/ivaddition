@@ -35,7 +35,7 @@
       "inputs": {
         "item": [
           {
-            "chance": 0.5,
+            "chance": 0.01,
             "content": {
               "amount": 128,
               "matches": [
@@ -54,7 +54,7 @@
           }
         ]
       },
-      "outputs": {
+      "tickOutputs": {
         "forge_energy": [
           {
             "chance": 1.0,
