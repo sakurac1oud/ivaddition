@@ -201,7 +201,7 @@
       "A": {
         "states": [
           {
-            "id": "naturesaura:infused_brick_slab",
+            "id": "naturesaura:infused_brick",
             "meta": 0
           }
         ],
@@ -265,15 +265,6 @@
           {
             "id": "astralsorcery:blockmarble",
             "meta": 1
-          }
-        ],
-        "type": "states"
-      },
-      "I": {
-        "states": [
-          {
-            "id": "naturesaura:gold_powder",
-            "meta": 0
           }
         ],
         "type": "states"
@@ -344,9 +335,7 @@
       "H": [
         "H"
       ],
-      "I": [
-        "I"
-      ],
+      "I": [],
       "J": [
         "J"
       ],
