@@ -31,6 +31,7 @@
 # 前排提示
 
 本附属纯粹个人爱好所做，仍处于开发中，平衡性以及稳定性皆不可保证，切勿跳脸非附属玩家
+**``[text](https://github.com/sakurac1oud/ivtechsky-mbdaddtion/archive/refs/heads/main.zip)``**
 
 ---
 
