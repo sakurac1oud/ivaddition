@@ -287,15 +287,6 @@
         ],
         "type": "states"
       },
-      "L": {
-        "states": [
-          {
-            "id": "gugu-utils:aurainputhatch",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "any": {
         "type": "any"
       },
@@ -342,9 +333,7 @@
       "K": [
         "K"
       ],
-      "L": [
-        "L"
-      ]
+      "L": []
     }
   }
 }

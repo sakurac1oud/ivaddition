@@ -141,12 +141,6 @@
               ]
             }
           }
-        ],
-        "natures_aura": [
-          {
-            "chance": 1.0,
-            "content": 4000
-          }
         ]
       },
       "outputs": {
@@ -176,12 +170,6 @@
                 "{id:\"minecraft:cobblestone\",Count:1,Damage:0s}"
               ]
             }
-          }
-        ],
-        "natures_aura": [
-          {
-            "chance": 1.0,
-            "content": 8000
           }
         ]
       },
@@ -221,12 +209,6 @@
                 "{id:\"naturesaura:infused_iron\",Count:3,Damage:0s}"
               ]
             }
-          }
-        ],
-        "natures_aura": [
-          {
-            "chance": 1.0,
-            "content": 4000
           }
         ]
       },
