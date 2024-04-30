@@ -100,9 +100,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 16,
+              "amount": 32,
               "matches": [
-                "{id:\"prodigytech:energion_dust\",Count:16,Damage:0s}"
+                "{id:\"prodigytech:energion_dust\",Count:32,Damage:0s}"
               ]
             }
           }

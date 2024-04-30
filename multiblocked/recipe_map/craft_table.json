@@ -1270,11 +1270,11 @@
             }
           },
           {
-            "chance": 0.0,
+            "chance": 1.0,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersivepetroleum:schematic\",Count:1,Damage:0s,tag:{multiblock:\"IP:Pumpjack\"}}"
+                "{id:\"immersiveengineering:metal_decoration1\",Count:1,Damage:1s}"
               ]
             }
           },
