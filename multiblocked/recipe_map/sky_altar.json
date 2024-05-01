@@ -12,7 +12,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 5,
               "matches": [
                 "{id:\"minecraft:iron_ingot\",Count:1,Damage:0s}"
               ]
@@ -21,17 +21,11 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 4,
               "matches": [
                 "{id:\"naturesaura:gold_leaf\",Count:1,Damage:0s}"
               ]
             }
-          }
-        ],
-        "natures_aura": [
-          {
-            "chance": 1.0,
-            "content": 4000
           }
         ]
       },
