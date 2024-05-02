@@ -32,10 +32,8 @@
           {
             "chance": 0.0,
             "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"enderio:item_soul_vial\",Count:1,Damage:1s,tag:{entityId:\"minecraft:shulker\"}}"
-              ]
+              "amount": 64,
+              "ore": "shulkerShell"
             }
           }
         ]

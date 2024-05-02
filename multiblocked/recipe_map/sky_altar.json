@@ -14,7 +14,7 @@
             "content": {
               "amount": 5,
               "matches": [
-                "{id:\"minecraft:iron_ingot\",Count:1,Damage:0s}"
+                "{id:\"minecraft:iron_ingot\",Count:5,Damage:0s}"
               ]
             }
           },
@@ -23,7 +23,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"naturesaura:gold_leaf\",Count:1,Damage:0s}"
+                "{id:\"naturesaura:gold_leaf\",Count:4,Damage:0s}"
               ]
             }
           }

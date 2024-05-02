@@ -44,7 +44,7 @@ multiblocked.recipe_map.terra_altar=盖亚~
 terra_altar.name=精灵？盖亚工坊~
 tile.sakuracloud.ender_pearl.name=末影冶炼炉
 sakuracloud.ender_pearl.description=末影冶炼炉
-multiblocked.recipe_map.ender_pearl=末影冶炼炉
+multiblocked.recipe_map.ender_pearl=末影冶炼
 ender_pearl.name=末影冶炼炉
 tile.sakuracloud.essential_altar.name=源质凝聚台
 sakuracloud.essential_altar.description=源质凝聚台
@@ -58,4 +58,6 @@ tile.sakuracloud.generator_1.name=通灵能量发生器
 sakuracloud.generator_1.description=通灵能量发生器
 multiblocked.recipe_map.generator_1=通灵能量发生
 generator_1.name=通灵能量发生器
+sakuracloud.energy_hatch.name=非常有用的能量接口？
+energy_hatch.name=非常有用的能量接口？
 
