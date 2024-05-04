@@ -62,7 +62,7 @@
         "ACGCA",
         "AHFIA",
         "@HFIB",
-        "AHFIA",
+        "LHFIA",
         "ACCCA",
         " AJA "
       ],
@@ -115,9 +115,17 @@
         ],
         "type": "states"
       },
+      "1": {
+        "capability": "fluid",
+        "type": "capability"
+      },
       "controller": {
         "location": "sakuracloud:advanced_fluid_generator",
         "type": "component"
+      },
+      "2": {
+        "capability": "forge_energy",
+        "type": "capability"
       },
       "C": {
         "states": [
@@ -132,15 +140,6 @@
         "states": [
           {
             "id": "extrautils2:ineffableglass",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "E": {
-        "states": [
-          {
-            "id": "thermalfoundation:fluid_aerotheum",
             "meta": 0
           }
         ],
@@ -164,24 +163,6 @@
         ],
         "type": "states"
       },
-      "H": {
-        "states": [
-          {
-            "id": "thermalfoundation:fluid_pyrotheum",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "I": {
-        "states": [
-          {
-            "id": "thermalfoundation:fluid_cryotheum",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "J": {
         "states": [
           {
@@ -191,25 +172,11 @@
         ],
         "type": "states"
       },
-      "K": {
-        "states": [
-          {
-            "id": "thermalfoundation:fluid_petrotheum",
-            "meta": 0
-          }
-        ],
-        "type": "states"
+      "air": {
+        "type": "air"
       },
       "any": {
         "type": "any"
-      },
-      "1": {
-        "capability": "item",
-        "type": "capability"
-      },
-      "2": {
-        "capability": "forge_energy",
-        "type": "capability"
       }
     },
     "symbolMap": {
@@ -233,7 +200,7 @@
         "D"
       ],
       "E": [
-        "E"
+        "any"
       ],
       "F": [
         "F"
@@ -242,16 +209,20 @@
         "G"
       ],
       "H": [
-        "H"
+        "any"
       ],
       "I": [
-        "I"
+        "any"
       ],
       "J": [
         "J"
       ],
       "K": [
-        "K"
+        "any"
+      ],
+      "L": [
+        "1",
+        "2"
       ]
     }
   }
