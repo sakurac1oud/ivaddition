@@ -40,7 +40,7 @@
     ],
     "pattern": [
       [
-        "    AAA   B",
+        "    AAA    ",
         "           ",
         "           ",
         "           ",
@@ -330,15 +330,6 @@
       "controller": {
         "location": "sakuracloud:sieve",
         "type": "component"
-      },
-      "B": {
-        "states": [
-          {
-            "id": "tp:raspberry_bush",
-            "meta": 0
-          }
-        ],
-        "type": "states"
       },
       "C": {
         "states": [
