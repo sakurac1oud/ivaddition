@@ -1,0 +1,831 @@
+{
+  "name": "sieve",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "5616238e-d3f8-436a-94c9-8cce5f88457f",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"exnihilocreatio:block_diorite_crushed\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_magnesium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_lithium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_boron\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_lead\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2a50c796-965b-4ab4-a0ce-63bea9df3f77",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:netherrack\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_cobalt\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_ardite\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_tungsten\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_gold\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:blaze_powder\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"draconicevolution:draconium_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "48d89273-5a9c-41e5-b097-891cefb6eaa1",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:soul_sand\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:quartz\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ghast_tear\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c708a7fc-9f53-4943-8e98-e2b2c1b4f55b",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "logWood"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.001,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ivonesky:log_alter\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e5ece0a6-46c4-40e4-8415-aba454d86b2e",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:gravel\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_uranium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_platinum\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_thorium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_titanium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_nickel\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_copper\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_iron\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_gold\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_osmium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:flint\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:dye\",Count:4,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"minecraft:emerald\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "01659480-765f-45b1-a121-98f29626c73f",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:stone\",Count:5,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_copper\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_iron\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d011b7ca-3fd2-4d9f-b849-4cdb21e7db33",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:end_stone\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_lead\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_silver\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_aluminium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"draconicevolution:draconium_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "29cd18b8-0a5c-4baa-a16b-f46f4f8bb25e",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:sand\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:prismarine_shard\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_silver\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_zinc\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_aluminium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"actuallyadditions:item_misc\",Count:2,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5a8fb32b-ef6b-4184-bdee-07789bd0b48f",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"exnihilocreatio:block_dust\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:quartz\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:gunpowder\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:4,Damage:45s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:glowstone_dust\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "705427d8-02b3-407b-bb87-32051a807dc6",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"appliedenergistics2:sky_stone_block\",Count:5,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:4,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:4,Damage:7s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "607e2c6a-7259-4d42-930b-1375417fecd4",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"minecraft:stone\",Count:5,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "tickOutputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_thorium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_tungsten\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"exnihilocreatio:item_ore_uranium\",Count:1,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:dye\",Count:4,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

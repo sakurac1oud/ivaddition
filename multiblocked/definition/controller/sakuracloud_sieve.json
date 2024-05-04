@@ -1,0 +1,495 @@
+{
+  "version": 2,
+  "location": "sakuracloud:sieve",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:machine_casing_stable_titanium",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "sieve",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "    AAA   B",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "    AAA    "
+      ],
+      [
+        "   ACCCA   ",
+        "    D D    ",
+        "     D     ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "     D     ",
+        "    D D    ",
+        "   ACCCA   "
+      ],
+      [
+        "  ACEFECA  ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  ACCGCCA  "
+      ],
+      [
+        " ACEFHFECA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "     I     ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        " ACCGHGCCA "
+      ],
+      [
+        "ACEFHHHFECA",
+        " D   J   D ",
+        "     J     ",
+        "     J     ",
+        "     J     ",
+        "           ",
+        "           ",
+        "           ",
+        "     I     ",
+        "    IKI    ",
+        "     I     ",
+        "           ",
+        "           ",
+        "           ",
+        "     J     ",
+        "     J     ",
+        "     J     ",
+        " D   J   D ",
+        "ACCGHHHGCCA"
+      ],
+      [
+        "ACFHHHHHFCA",
+        "    JLJ    ",
+        " D  JLJ  D ",
+        "    JLJ    ",
+        "    JLJ    ",
+        "           ",
+        "           ",
+        "     I     ",
+        "    IKI    ",
+        "   IKKKI   ",
+        "    IKI    ",
+        "     I     ",
+        "           ",
+        "           ",
+        "    JMJ    ",
+        "    JMJ    ",
+        " D  JMJ  D ",
+        "    JMJ    ",
+        "ACGHHHHHGCA"
+      ],
+      [
+        "ACEFHHHFECA",
+        " D   J   D ",
+        "     J     ",
+        "     J     ",
+        "     J     ",
+        "           ",
+        "           ",
+        "           ",
+        "     I     ",
+        "    IKI    ",
+        "     I     ",
+        "           ",
+        "           ",
+        "           ",
+        "     J     ",
+        "     J     ",
+        "     J     ",
+        " D   J   D ",
+        "ACCGHHHGCCA"
+      ],
+      [
+        " ACEFHFECA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "     I     ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        " ACCGHGCCA "
+      ],
+      [
+        "  ACEFECA  ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  ACCGCCA  "
+      ],
+      [
+        "   ACCCA   ",
+        "    D D    ",
+        "     D     ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "     D     ",
+        "    D D    ",
+        "   ACCCA   "
+      ],
+      [
+        "    A@A    ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "    AAA    "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "sakuracloud:sieve",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "tp:raspberry_bush",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "minecraft:sea_lantern",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "tp:hardened_stone_bricks",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "extrautils2:ineffableglass",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "extrautils2:ineffableglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_pyrotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_cryotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_aerotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "1": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "2": {
+        "capability": "forge_energy",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "1",
+        "2",
+        "C"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ]
+    }
+  }
+}

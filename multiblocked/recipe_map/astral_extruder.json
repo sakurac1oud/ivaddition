@@ -5,45 +5,8 @@
   "fuelThreshold": 100,
   "recipes": [
     {
-      "uid": "d7ff7357-ad47-4ddb-9320-e4e36542011a",
-      "duration": 600,
-      "inputs": {
-        "starlight_as": [
-          {
-            "chance": 1.0,
-            "content": {
-              "starlight": 800
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 0.0,
-            "content": "{FluidName:\"witchwater\",Amount:1000}"
-          },
-          {
-            "chance": 0.0,
-            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"minecraft:soul_sand\",Count:2,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "14e44bd7-f61a-4d84-9c26-e6413e5fbd5d",
-      "duration": 2400,
+      "duration": 1200,
       "inputs": {
         "item": [
           {
@@ -260,6 +223,183 @@
       }
     },
     {
+      "uid": "1367ef9e-01e0-45cc-9839-cf4e331261f9",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:cobblestone\",Count:1,Damage:0s}",
+                "{id:\"minecraft:stone\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.0,
+            "content": "{FluidName:\"menrilresin\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ffa2f883-6cfc-4498-8409-51d0b811479f",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:water_bucket\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.5,
+            "content": "{FluidName:\"lava\",Amount:16000}"
+          },
+          {
+            "chance": 0.5,
+            "content": "{FluidName:\"lava\",Amount:16000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:obsidian\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d7ff7357-ad47-4ddb-9320-e4e36542011a",
+      "duration": 600,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 0.0,
+            "content": "{FluidName:\"witchwater\",Amount:1000}"
+          },
+          {
+            "chance": 0.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:soul_sand\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5c7de9a3-3f97-4d18-8f8f-dd7a368aea23",
+      "duration": 100,
+      "inputs": {
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 800
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"astralsorcery:blockblackmarble\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"astralsorcery:blockmarble\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "828a32d9-0f99-403d-878a-ef21386896ae",
       "duration": 1,
       "inputs": {
@@ -309,7 +449,7 @@
     },
     {
       "uid": "c9649e4d-3b30-4bbd-85ae-1ec1f9c76814",
-      "duration": 3600,
+      "duration": 1200,
       "inputs": {
         "item": [
           {
@@ -426,6 +566,95 @@
       }
     },
     {
+      "uid": "ca51fc4f-420c-42f2-86bb-93ff91b5a9ae",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:gold_ingot\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"extendedcrafting:material\",Count:16,Damage:7s}"
+              ]
+            }
+          }
+        ],
+        "starlight_as": [
+          {
+            "chance": 1.0,
+            "content": {
+              "starlight": 4000
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"astralsorcery.liquidstarlight\",Amount:32000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modularmachinery:itemmodularium\",Count:8,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.025,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modularmachinery:itemmodularium\",Count:8,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modularmachinery:itemmodularium\",Count:8,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.75,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modularmachinery:itemmodularium\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "bf49989f-0fd9-48fd-a405-32a98968f993",
       "duration": 50,
       "inputs": {
@@ -453,9 +682,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 8,
               "matches": [
-                "{id:\"minecraft:cobblestone\",Count:4,Damage:0s}"
+                "{id:\"minecraft:cobblestone\",Count:8,Damage:0s}"
               ]
             }
           }
@@ -463,17 +692,16 @@
       }
     },
     {
-      "uid": "1367ef9e-01e0-45cc-9839-cf4e331261f9",
-      "duration": 100,
+      "uid": "368550f1-8a20-4379-9501-647f5f9bac84",
+      "duration": 2400,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 16,
               "matches": [
-                "{id:\"minecraft:cobblestone\",Count:1,Damage:0s}",
-                "{id:\"minecraft:stone\",Count:1,Damage:0s}"
+                "{id:\"minecraft:prismarine_shard\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -482,62 +710,8 @@
           {
             "chance": 1.0,
             "content": {
-              "starlight": 800
+              "starlight": 2000
             }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 0.0,
-            "content": "{FluidName:\"menrilresin\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"astralsorcery:blockmarble\",Count:2,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "ffa2f883-6cfc-4498-8409-51d0b811479f",
-      "duration": 1200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 0.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"minecraft:water_bucket\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ],
-        "starlight_as": [
-          {
-            "chance": 1.0,
-            "content": {
-              "starlight": 800
-            }
-          }
-        ],
-        "fluid": [
-          {
-            "chance": 0.25,
-            "content": "{FluidName:\"lava\",Amount:16000}"
-          },
-          {
-            "chance": 0.25,
-            "content": "{FluidName:\"lava\",Amount:16000}"
           }
         ]
       },
@@ -548,7 +722,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"minecraft:obsidian\",Count:64,Damage:0s}"
+                "{id:\"minecraft:sea_lantern\",Count:64,Damage:0s}"
               ]
             }
           }

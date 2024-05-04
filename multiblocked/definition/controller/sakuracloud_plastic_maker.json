@@ -119,27 +119,9 @@
       ]
     ],
     "predicates": {
-      "A": {
-        "states": [
-          {
-            "id": "pneumaticcraft:compressed_iron_block",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "controller": {
         "location": "sakuracloud:plastic_maker",
         "type": "component"
-      },
-      "C": {
-        "states": [
-          {
-            "id": "pneumaticcraft:heat_sink",
-            "meta": 5
-          }
-        ],
-        "type": "states"
       },
       "E": {
         "states": [
@@ -168,29 +150,11 @@
         ],
         "type": "states"
       },
-      "H": {
-        "states": [
-          {
-            "id": "pneumaticcraft:heat_sink",
-            "meta": 3
-          }
-        ],
-        "type": "states"
-      },
       "I": {
         "states": [
           {
             "id": "pneumaticcraft:fluid.plastic",
             "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "J": {
-        "states": [
-          {
-            "id": "pneumaticcraft:heat_sink",
-            "meta": 2
           }
         ],
         "type": "states"
@@ -207,15 +171,6 @@
       "any": {
         "type": "any"
       },
-      "M": {
-        "states": [
-          {
-            "id": "pneumaticcraft:heat_sink",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
       "N": {
         "capability": "item",
         "type": "capability"
@@ -223,6 +178,14 @@
       "O": {
         "capability": "fluid",
         "type": "capability"
+      },
+      "1": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:compressed_iron_block"
+          }
+        ],
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -233,14 +196,12 @@
         "any"
       ],
       "A": [
-        "A"
+        "1"
       ],
       "B": [
         "O"
       ],
-      "C": [
-        "C"
-      ],
+      "C": [],
       "D": [
         "N"
       ],
@@ -253,24 +214,18 @@
       "G": [
         "G"
       ],
-      "H": [
-        "H"
-      ],
+      "H": [],
       "I": [
         "I"
       ],
-      "J": [
-        "J"
-      ],
+      "J": [],
       "K": [
         "K"
       ],
       "L": [
         "O"
       ],
-      "M": [
-        "M"
-      ]
+      "M": []
     }
   }
 }

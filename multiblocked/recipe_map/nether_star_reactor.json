@@ -6,7 +6,7 @@
   "recipes": [
     {
       "uid": "cf1b40a6-fa17-434a-a49f-1cca5ff0606b",
-      "duration": 1,
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -20,7 +20,7 @@
           }
         ]
       },
-      "outputs": {
+      "tickOutputs": {
         "forge_energy": [
           {
             "chance": 1.0,
@@ -65,7 +65,7 @@
     },
     {
       "uid": "8b53a18a-a7a9-4328-9fa7-6448cf7a1764",
-      "duration": 1,
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -99,7 +99,9 @@
               ]
             }
           }
-        ],
+        ]
+      },
+      "tickOutputs": {
         "forge_energy": [
           {
             "chance": 1.0,

@@ -101,11 +101,14 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "avaritia:compressed_crafting_table",
-          "meta": 0
-        },
-        "type": "blockstate"
+        "baseTexture": "multiblocked:craft_table/bottom",
+        "frontTexture": "multiblocked:craft_table/top",
+        "backTexture": "multiblocked:craft_table/bottom",
+        "leftTexture": "multiblocked:craft_table/bottom",
+        "rightTexture": "multiblocked:craft_table/bottom",
+        "upTexture": "multiblocked:craft_table/bottom",
+        "downTexture": "multiblocked:craft_table/bottom",
+        "type": "gregtech"
       },
       "lightEmissive": 10
     },

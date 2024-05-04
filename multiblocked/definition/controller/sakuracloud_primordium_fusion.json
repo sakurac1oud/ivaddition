@@ -35,20 +35,7 @@
           "\"{id:\\\"prodigytech:energion_dust\\\",Count:1,Damage:0s}\""
         ]
       }
-    ],
-    "forge_energy": {
-      "cIO": 2,
-      "gIO": 2,
-      "x": 62,
-      "y": 103,
-      "width": 60,
-      "height": 18,
-      "texture": "multiblocked:textures/gui/energy_bar.png",
-      "fillDirection": 0,
-      "capacity": 10000,
-      "maxReceive": 500,
-      "maxExtract": 500
-    }
+    ]
   },
   "properties": {
     "rotationState": "ALL",

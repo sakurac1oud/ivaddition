@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "location": "sakuracloud:astral_extruder",
+  "location": "sakuracloud:advanced_fluid_generator",
+  "traits": {},
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
@@ -15,11 +16,9 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "chisel:marblepillar",
-          "meta": 4
-        },
-        "type": "blockstate"
+        "baseTexture": "multiblocked:machine_casing_fusion",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
       }
     },
     "idle": {
@@ -32,7 +31,10 @@
       "parent": "working"
     }
   },
-  "recipeMap": "astral_extruder",
+  "recipeMap": "advanced_fluid_generator",
+  "catalyst": "{id:\"modularmachinery:itemblueprint\",Count:1,Damage:0s,tag:{dynamicmachine:\"modularmachinery:ivminieng\"}}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": true,
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -41,85 +43,47 @@
     ],
     "pattern": [
       [
-        "  AAA  ",
-        "       ",
-        "       ",
-        "       ",
-        "       ",
-        "       ",
-        "       ",
-        "       "
+        "  A  ",
+        "  A  ",
+        "  B  ",
+        "  A  ",
+        "  A  ",
+        "     "
       ],
       [
-        " AAAAA ",
-        "       ",
-        "       ",
-        "       ",
-        "   B   ",
-        "       ",
-        "       ",
-        "       "
+        " ACA ",
+        " DED ",
+        " FEF ",
+        " DED ",
+        " AAA ",
+        "  A  "
       ],
       [
-        "AAAAAAA",
-        "   C   ",
-        "   D   ",
-        "   E   ",
-        "  BEB  ",
-        "  FEG  ",
-        "   D   ",
-        "   C   "
+        "ACGCA",
+        "AHFIA",
+        "@HFIB",
+        "AHFIA",
+        "ACCCA",
+        " AJA "
       ],
       [
-        "@AAAAAA",
-        "  CHC  ",
-        "  DID  ",
-        "  EJE  ",
-        " BEKEB ",
-        "  EJE  ",
-        "  DLD  ",
-        "  CHC  "
+        " ACA ",
+        " DKD ",
+        " FKF ",
+        " DKD ",
+        " AAA ",
+        "  A  "
       ],
       [
-        "AAAAAAA",
-        "   C   ",
-        "   D   ",
-        "   E   ",
-        "  BEB  ",
-        "  FEG  ",
-        "   D   ",
-        "   C   "
-      ],
-      [
-        " AAAAA ",
-        "       ",
-        "       ",
-        "       ",
-        "   B   ",
-        "       ",
-        "       ",
-        "       "
-      ],
-      [
-        "  AAA  ",
-        "       ",
-        "       ",
-        "       ",
-        "       ",
-        "       ",
-        "       ",
-        "       "
+        "  A  ",
+        "  A  ",
+        "  B  ",
+        "  A  ",
+        "  A  ",
+        "     "
       ]
     ],
     "aisleRepetitions": [
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
       [
         1,
         1
@@ -145,30 +109,21 @@
       "A": {
         "states": [
           {
-            "id": "astralsorcery:blockmarble",
-            "meta": 1
+            "id": "tp:hardened_stone_bricks",
+            "meta": 0
           }
         ],
         "type": "states"
       },
       "controller": {
-        "location": "sakuracloud:astral_extruder",
+        "location": "sakuracloud:advanced_fluid_generator",
         "type": "component"
-      },
-      "B": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarble",
-            "meta": 3
-          }
-        ],
-        "type": "states"
       },
       "C": {
         "states": [
           {
-            "id": "astralsorcery:blockmarble",
-            "meta": 6
+            "id": "modularmachinery:blockcasing",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -176,13 +131,22 @@
       "D": {
         "states": [
           {
-            "id": "astralsorcery:blockmarble",
-            "meta": 2
+            "id": "extrautils2:ineffableglass",
+            "meta": 0
           }
         ],
         "type": "states"
       },
       "E": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_aerotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
         "states": [
           {
             "id": "extrautils2:ineffableglass",
@@ -191,11 +155,20 @@
         ],
         "type": "states"
       },
+      "G": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
       "H": {
         "states": [
           {
-            "id": "astralsorcery:blockmarble",
-            "meta": 4
+            "id": "thermalfoundation:fluid_pyrotheum",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -203,7 +176,7 @@
       "I": {
         "states": [
           {
-            "id": "integratedterminals:menril_glass",
+            "id": "thermalfoundation:fluid_cryotheum",
             "meta": 0
           }
         ],
@@ -212,16 +185,16 @@
       "J": {
         "states": [
           {
-            "id": "integrateddynamics:block_menril_resin",
-            "meta": 0
+            "id": "modularmachinery:blockcasing",
+            "meta": 1
           }
         ],
         "type": "states"
       },
-      "L": {
+      "K": {
         "states": [
           {
-            "id": "astralsorcery:fluidblockliquidstarlight",
+            "id": "thermalfoundation:fluid_petrotheum",
             "meta": 0
           }
         ],
@@ -230,12 +203,12 @@
       "any": {
         "type": "any"
       },
-      "M": {
+      "1": {
         "capability": "item",
         "type": "capability"
       },
-      "N": {
-        "capability": "fluid",
+      "2": {
+        "capability": "forge_energy",
         "type": "capability"
       }
     },
@@ -250,7 +223,8 @@
         "A"
       ],
       "B": [
-        "B"
+        "1",
+        "2"
       ],
       "C": [
         "C"
@@ -262,10 +236,10 @@
         "E"
       ],
       "F": [
-        "M"
+        "F"
       ],
       "G": [
-        "N"
+        "G"
       ],
       "H": [
         "H"
@@ -277,10 +251,7 @@
         "J"
       ],
       "K": [
-        "J"
-      ],
-      "L": [
-        "L"
+        "K"
       ]
     }
   }
