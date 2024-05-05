@@ -1,0 +1,327 @@
+{
+  "version": 2,
+  "location": "sakuracloud:charger",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "actuallyadditions:block_empowerer",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "draconicevolution:reactor_core",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "charger",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "   PPP   ",
+        "   BBB   ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "  AAAAA  ",
+        "  BCBCB  ",
+        "   DDD   ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        " AAAAAAA ",
+        " BCEFECB ",
+        "  DGHGD  ",
+        "   IJI   ",
+        "   I I   ",
+        "   K K   "
+      ],
+      [
+        "PAAAAAAAP",
+        "BCELMLECB",
+        " DG N GD ",
+        "  I   I  ",
+        "  I   I  ",
+        "  K   K  "
+      ],
+      [
+        "PAAAAAAAP",
+        "BBFMNMFBB",
+        " DHNONHD ",
+        "  J @ J  ",
+        "         ",
+        "         "
+      ],
+      [
+        "PAAAAAAAP",
+        "BCELMLECB",
+        " DG N GD ",
+        "  I   I  ",
+        "  I   I  ",
+        "  K   K  "
+      ],
+      [
+        " AAAAAAA ",
+        " BCEFECB ",
+        "  DGHGD  ",
+        "   IJI   ",
+        "   I I   ",
+        "   K K   "
+      ],
+      [
+        "  AAAAA  ",
+        "  BCBCB  ",
+        "   DDD   ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      [
+        "   PPP   ",
+        "   BBB   ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "chisel:diamond",
+            "meta": 11
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "sakuracloud:charger",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "chisel:lapis",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "actuallyadditions:block_crystal_empowered",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "minecraft:snow_layer",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "chisel:futura",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "chisel:blockplatinum",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "actuallyadditions:block_crystal_empowered",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "1": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "2": {
+        "capability": "forge_energy",
+        "type": "capability"
+      },
+      "3": {
+        "blocks": [
+          {
+            "id": "minecraft:sea_lantern"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [],
+      "K": [
+        "K"
+      ],
+      "L": [],
+      "M": [],
+      "N": [
+        "3"
+      ],
+      "O": [],
+      "P": [
+        "A",
+        "1",
+        "2"
+      ]
+    }
+  }
+}

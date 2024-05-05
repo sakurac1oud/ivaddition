@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "sakuracloud:advanced_fluid_generator",
+  "location": "sakuracloud:astral_soul",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -16,9 +16,11 @@
   "status": {
     "unformed": {
       "renderer": {
-        "baseTexture": "multiblocked:machine_casing_fusion",
-        "frontTexture": "multiblocked:blocks/gregtech_front",
-        "type": "gregtech"
+        "state": {
+          "id": "chisel:futura",
+          "meta": 5
+        },
+        "type": "blockstate"
       }
     },
     "idle": {
@@ -31,10 +33,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "nether_star_reactor",
-  "catalyst": "{id:\"modularmachinery:itemblueprint\",Count:1,Damage:0s,tag:{dynamicmachine:\"modularmachinery:ivminieng\"}}",
-  "consumeCatalyst": "NOT_CONSUMED",
-  "noNeedController": true,
+  "recipeMap": "astral_soul",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -44,42 +43,47 @@
     "pattern": [
       [
         "  A  ",
-        "  A  ",
-        "  B  ",
-        "  A  ",
-        "  A  ",
+        "BBCBB",
+        "D E D",
+        "D E D",
+        "D E D",
+        "BBCBB",
         "     "
       ],
       [
-        " ACA ",
-        " DED ",
-        " FEF ",
-        " DED ",
-        " AAA ",
-        "  A  "
+        " FGF ",
+        "BHHHB",
+        "     ",
+        "     ",
+        "     ",
+        "B   B",
+        " FGF "
       ],
       [
-        "ACGCA",
-        "AHFIA",
-        "@HFIB",
-        "LHFIA",
-        "ACCCA",
-        " AJA "
+        "@GIGA",
+        "CHIHC",
+        "E J E",
+        "E J E",
+        "E J E",
+        "C I C",
+        " GIG "
       ],
       [
-        " ACA ",
-        " DKD ",
-        " FKF ",
-        " DKD ",
-        " AAA ",
-        "  A  "
+        " FGF ",
+        "BHHHB",
+        "     ",
+        "     ",
+        "     ",
+        "B   B",
+        " FGF "
       ],
       [
         "  A  ",
-        "  A  ",
-        "  B  ",
-        "  A  ",
-        "  A  ",
+        "BBCBB",
+        "D E D",
+        "D E D",
+        "D E D",
+        "BBCBB",
         "     "
       ]
     ],
@@ -106,32 +110,24 @@
       ]
     ],
     "predicates": {
-      "A": {
+      "controller": {
+        "location": "sakuracloud:astral_soul",
+        "type": "component"
+      },
+      "B": {
         "states": [
           {
-            "id": "tp:hardened_stone_bricks",
+            "id": "extrautils2:ineffableglass",
             "meta": 0
           }
         ],
         "type": "states"
       },
-      "1": {
-        "capability": "fluid",
-        "type": "capability"
-      },
-      "controller": {
-        "location": "sakuracloud:advanced_fluid_generator",
-        "type": "component"
-      },
-      "2": {
-        "capability": "forge_energy",
-        "type": "capability"
-      },
       "C": {
         "states": [
           {
-            "id": "modularmachinery:blockcasing",
-            "meta": 0
+            "id": "astralsorcery:blockmarble",
+            "meta": 3
           }
         ],
         "type": "states"
@@ -140,7 +136,16 @@
         "states": [
           {
             "id": "extrautils2:ineffableglass",
-            "meta": 0
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
           }
         ],
         "type": "states"
@@ -148,8 +153,8 @@
       "F": {
         "states": [
           {
-            "id": "extrautils2:ineffableglass",
-            "meta": 2
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
           }
         ],
         "type": "states"
@@ -157,26 +162,48 @@
       "G": {
         "states": [
           {
-            "id": "modularmachinery:blockcasing",
+            "id": "astralsorcery:blockmarble",
             "meta": 4
           }
         ],
         "type": "states"
       },
-      "J": {
+      "H": {
         "states": [
           {
-            "id": "modularmachinery:blockcasing",
-            "meta": 1
+            "id": "astralsorcery:fluidblockliquidstarlight",
+            "meta": 0
           }
         ],
         "type": "states"
       },
-      "air": {
-        "type": "air"
+      "I": {
+        "states": [
+          {
+            "id": "chisel:marblepillar",
+            "meta": 12
+          }
+        ],
+        "type": "states"
       },
       "any": {
         "type": "any"
+      },
+      "1": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "2": {
+        "capability": "fluid",
+        "type": "capability"
+      },
+      "3": {
+        "blocks": [
+          {
+            "id": "randomthings:spectrelog"
+          }
+        ],
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -187,11 +214,11 @@
         "any"
       ],
       "A": [
-        "A"
-      ],
-      "B": [
         "1",
         "2"
+      ],
+      "B": [
+        "B"
       ],
       "C": [
         "C"
@@ -200,7 +227,7 @@
         "D"
       ],
       "E": [
-        "air"
+        "E"
       ],
       "F": [
         "F"
@@ -209,20 +236,13 @@
         "G"
       ],
       "H": [
-        "any"
+        "H"
       ],
       "I": [
-        "any"
+        "I"
       ],
       "J": [
-        "J"
-      ],
-      "K": [
-        "any"
-      ],
-      "L": [
-        "1",
-        "2"
+        "3"
       ]
     }
   }

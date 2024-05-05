@@ -66,6 +66,14 @@ tile.sakuracloud.advanced_fluid_generator.name=进阶流体发电机
 sakuracloud.advanced_fluid_generator.description=进阶流体发电机
 multiblocked.recipe_map.advanced_fluid_generator=进阶流体发电
 advanced_fluid_generator.name=进阶流体发电机
+tile.sakuracloud.charger.name=空天能量注入器
+sakuracloud.charger.description=空天能量注入器
+multiblocked.recipe_map.charger=空天能量注入
+charger.name=空天能量注入器
+tile.sakuracloud.astral_soul.name=星辉树木拟生场
+sakuracloud.astral_soul.description=星辉树木拟生场
+multiblocked.recipe_map.astral_soul=星辉树木拟生
+astral_soul.name=星辉树木拟生场
 tile.sakuracloud.energy_hatch.name=完全没用的能量接口？
 energy_hatch.name=完全没用的能量接口？
 

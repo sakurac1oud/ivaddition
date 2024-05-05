@@ -195,14 +195,13 @@
         ],
         "type": "states"
       },
-      "F": {
-        "states": [
+      "f": {
+        "blocks": [
           {
-            "id": "thaumcraft:pedestal_arcane",
-            "meta": 0
+            "id": "thaumcraft:pedestal_arcane"
           }
         ],
-        "type": "states"
+        "type": "blocks"
       },
       "G": {
         "states": [
@@ -213,14 +212,13 @@
         ],
         "type": "states"
       },
-      "I": {
-        "states": [
+      "i": {
+        "blocks": [
           {
-            "id": "thaumcraft:plank_silverwood",
-            "meta": 0
+            "id": "thaumcraft:plank_silverwood"
           }
         ],
-        "type": "states"
+        "type": "blocks"
       },
       "J": {
         "states": [
@@ -264,7 +262,7 @@
         "E"
       ],
       "F": [
-        "F"
+        "f"
       ],
       "G": [
         "G"
@@ -273,7 +271,7 @@
         "K"
       ],
       "I": [
-        "I"
+        "i"
       ],
       "J": [
         "J"
