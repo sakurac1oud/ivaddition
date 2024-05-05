@@ -39,7 +39,9 @@
 
 # 如何使用
 
-将 `multiblocked` 文件夹放入 `<你的iv所在目录>/config` 中
+如果下载的是release里的`multiblocked.zip`,则解压后将 `multiblocked` 文件夹放入 `<你的iv所在目录>/config` 中
+
+如果下载的是源码（应该显示的是`ivtechsky-mbdaddition-main.zip`）则解压后仅将 `multiblocked` 文件夹放入 `<你的iv所在目录>/config` 中
 
 `image`文件夹无用，纯属为了储存展示图片
 
