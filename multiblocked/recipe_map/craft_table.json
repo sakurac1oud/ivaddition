@@ -46,11 +46,11 @@
             }
           },
           {
-            "chance": 0.0,
+            "chance": 1.0,
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"astralsorcery:itemwand\",Count:1,Damage:0s,tag:{astralsorcery:{}}}"
+                "{id:\"astralsorcery:itemcraftingcomponent\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -100,6 +100,54 @@
               "amount": 1,
               "matches": [
                 "{id:\"sakuracloud:astral_altar\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "15dd5781-3367-4285-b46c-6801da4bf48b",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:light_weighted_pressure_plate\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:8,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"minecraft:gold_ingot\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:16,Damage:7s}"
               ]
             }
           }
@@ -413,6 +461,54 @@
       }
     },
     {
+      "uid": "08ee996d-e716-40e8-a690-3326a022f114",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:15s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"minecraft:nether_star\",Count:6,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:16s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "c94876cf-6824-4f73-9824-f28463492f98",
       "duration": 1,
       "inputs": {
@@ -610,6 +706,54 @@
               "amount": 1,
               "matches": [
                 "{id:\"sakuracloud:plastic_maker\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5b2dc43e-a3fd-408b-9417-0d5ca6e7616c",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:light_weighted_pressure_plate\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:redstone_block\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"minecraft:gold_ingot\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:16,Damage:6s}"
               ]
             }
           }
@@ -932,7 +1076,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
+                "{id:\"enderio:item_capacitor_stellar\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -950,7 +1094,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
+                "{id:\"enderio:item_capacitor_stellar\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -986,7 +1130,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
+                "{id:\"enderio:item_capacitor_stellar\",Count:1,Damage:0s}"
               ]
             }
           },
@@ -1004,7 +1148,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"extendedcrafting:frame\",Count:1,Damage:0s}"
+                "{id:\"enderio:item_capacitor_stellar\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -1220,6 +1364,54 @@
               "amount": 1,
               "matches": [
                 "{id:\"sakuracloud:energy_hatch\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2e92272f-cb8d-41b6-b650-f6995ecd7713",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"actuallyadditions:item_solidified_experience\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"extrautils2:ingredients\",Count:1,Damage:15s}"
               ]
             }
           }

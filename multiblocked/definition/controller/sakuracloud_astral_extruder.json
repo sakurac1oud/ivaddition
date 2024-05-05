@@ -1,6 +1,7 @@
 {
   "version": 2,
   "location": "sakuracloud:astral_extruder",
+  "traits": {},
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,

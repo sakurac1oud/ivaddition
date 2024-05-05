@@ -234,23 +234,13 @@
         ],
         "type": "states"
       },
-      "H": {
-        "states": [
+      "h": {
+        "blocks": [
           {
-            "id": "prodigytech:zorra_log",
-            "meta": 4
+            "id": "prodigytech:zorra_log"
           }
         ],
-        "type": "states"
-      },
-      "I": {
-        "states": [
-          {
-            "id": "prodigytech:zorra_log",
-            "meta": 8
-          }
-        ],
-        "type": "states"
+        "type": "blocks"
       },
       "any": {
         "type": "any"
@@ -293,10 +283,10 @@
         "G"
       ],
       "H": [
-        "H"
+        "h"
       ],
       "I": [
-        "I"
+        "h"
       ],
       "J": [
         "M"

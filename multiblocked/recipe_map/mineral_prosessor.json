@@ -33,7 +33,7 @@
             "content": {
               "amount": 5,
               "matches": [
-                "{id:\"thaumcraft:ingot\",Count:3,Damage:0s}"
+                "{id:\"thaumcraft:ingot\",Count:5,Damage:0s}"
               ]
             }
           }
@@ -137,7 +137,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 5000
+            "content": 500
           }
         ]
       },
@@ -302,6 +302,38 @@
               "matches": [
                 "{id:\"appliedenergistics2:material\",Count:16,Damage:0s}"
               ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9e8f623d-e372-4b8c-a5ca-b8f845c9ca08",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "oreIridium"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "ore": "ingotIridium"
             }
           }
         ]
