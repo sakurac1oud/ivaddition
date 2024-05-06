@@ -1,0 +1,634 @@
+{
+  "version": 2,
+  "location": "sakuracloud:sky_of_fantasy",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:overlay_side",
+        "frontTexture": "multiblocked:overlay_front",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "catalyst": "{id:\"minecraft:air\",Count:2,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "                                              ",
+        "                                              ",
+        "                   AAAAAAAAA                  ",
+        "                AAAAAAACAAAAAAA               ",
+        "              AAACAAAAAAAAAAACAAA             ",
+        "            AAAAAAA         AAAAAAA           ",
+        "           AAAAA               AAAAA          ",
+        "          AACA        AAA        ACAA         ",
+        "         AAAA                     AAAA        ",
+        "        AAA                         AAA       ",
+        "       AAA                           AAA      ",
+        "      AACA                           ACAA     ",
+        "      AAA                             AAA     ",
+        "     AAA                               AAA    ",
+        "     AAA                               AAA    ",
+        "    AAA                                 AAA   ",
+        "    ACA                                 ACA   ",
+        "    AAA               AAA               AAA   ",
+        "   AAA               JJJJJ               AAA  ",
+        "   AAA              J     J              AAA  ",
+        "   AAA             J       J             AAA  ",
+        "   AAA  A         AJ       JA         A  AAA  ",
+        "   ACA  A         AJ       JA         A  ACA  ",
+        "   AAA  A         AJ       JA         A  AAA  ",
+        "   AAA             J       J             AAA  ",
+        "   AAA              J     J              AAA  ",
+        "   AAA               JJJJJ               AAA  ",
+        "    AAA               AAA               AAA   ",
+        "    ACA                                 ACA   ",
+        "    AAA                                 AAA   ",
+        "     AAA                               AAA    ",
+        "     AAA                               AAA    ",
+        "      AAA                             AAA     ",
+        "      AACA                           ACAA     ",
+        "       AAA                           AAA      ",
+        "        AAA                         AAA       ",
+        "         AAAA                     AAAA        ",
+        "          AACA        AAA        ACAA         ",
+        "           AAAAA               AAAAA          ",
+        "            AAAAAAA         AAAAAAA           ",
+        "              AAACAAAAAAAAAAACAAA             ",
+        "                AAAAAAACAAAAAAA               ",
+        "                   AAAAAAAAA                  ",
+        "                                              ",
+        "                                              "
+      ],
+      [
+        "                                              ",
+        "                   JJJJJJJJJ                  ",
+        "               AJJJ         JJJA              ",
+        "             JJJ               JJJ            ",
+        "           AJA                   AJA          ",
+        "          JJ       JJJJJJJJJ       JJ         ",
+        "         JA     JJJ   FFF   JJJ     AJ        ",
+        "        JA    JJ     AIIIA     JJ    AJ       ",
+        "       JA    J        IJI        J    AJ      ",
+        "      JA   AJ         HJH         JA   AJ     ",
+        "     AJ   AJ          HJH          JA   JA    ",
+        "     J    J           HJH           J    J    ",
+        "    JA   J            HBH            J   AJ   ",
+        "    J   J             HJH             J   J   ",
+        "   AJ   J      J      HJH      J      J   JA  ",
+        "   J   J              HJH              J   J  ",
+        "   J   J              IJI              J   J  ",
+        "   J   J             AIIIA             J   J  ",
+        "  J   J             CJ   JC             J   J ",
+        "  J   J            C       C            J   J ",
+        "  J   J A         AJ       JA         A J   J ",
+        "  J   JFIIHHHHHHHII         IHHHHHHHHIIFJ   J ",
+        "  J   JFIJJJJBJJJJI    J    IJJJJBJJJJIFJ   J ",
+        "  J   JFIIHHHHHHHII         IHHHHHHHHIIFJ   J ",
+        "  J   J A         AJ       JA         A J   J ",
+        "  J   J            C       C            J   J ",
+        "  J   J             CJ   JC             J   J ",
+        "   J   J             AIIIA             J   J  ",
+        "   J   J              IJI              J   J  ",
+        "   J   J              HJH              J   J  ",
+        "   AJ   J      J      HJH      J      J   JA  ",
+        "    J   J             HJH             J   J   ",
+        "    JA   J            HBH            J   AJ   ",
+        "     J    J           HJH           J    J    ",
+        "     AJ   AJ          HJH          JA   JA    ",
+        "      JA   AJ         HJH         JA   AJ     ",
+        "       JA    J        IJI        J    AJ      ",
+        "        JA    JJ     AIIIA     JJ    AJ       ",
+        "         JA     JJJ   FFF   JJJ     AJ        ",
+        "          JJ       JJJJJJJJJ       JJ         ",
+        "           AJA                   AJA          ",
+        "             JJJ               JJJ            ",
+        "               AJJJ         JJJA              ",
+        "                   JJJJJJJJJ                  ",
+        "                                              "
+      ],
+      [
+        "                   AAAAAAAAA                  ",
+        "               AAAA         AAAA              ",
+        "             AA                 AA            ",
+        "           AA      IIIIIIIII      AA          ",
+        "          A     III         III     A         ",
+        "         A    II               II    A        ",
+        "        A   II     AAE   EAA     II   A       ",
+        "       A   I    AAA AI   IA AAA    I   A      ",
+        "      A   I   AAA    IG GI    AAA   I   A     ",
+        "     A   I   AA      HG GH      AA   I   A    ",
+        "    A   I   A        HG GH        A   I   A   ",
+        "    A  I   A         HG GH         A   I  A   ",
+        "   A   I  A          HG GH          A  I   A  ",
+        "   A  I  AA    J     HG GH     J    AA  I  A  ",
+        "  A   I  A    JEJ    HG GH    JEJ    A  I   A ",
+        "  A  I  AA     J     HG GH     J     AA  I  A ",
+        "  A  I  A            IG GI            A  I  A ",
+        "  A  I  A           AI   IA           A  I  A ",
+        "A  I  A             J     J            A  I  A",
+        "A  I  AA          AJ       JA         AA  I  A",
+        "A  I   EIIHHHHHHHII         IHHHHHHHHIIE  I  A",
+        "A  I     GGGGGGGGG     J     GGGGGGGGG    I  A",
+        "A  I                  JFJ                 I  A",
+        "A  I     GGGGGGGGG     J      GGGGGGGG    I  A",
+        "A  I   EIIHHHHHHHII         IHHHHHHHHIIE  I  A",
+        "A  I  AA          AJ       JA         AA  I  A",
+        "A  I  A             J     J            A  I  A",
+        "  A  I  A           AI   IA           A  I  A ",
+        "  A  I  A            IG GI            A  I  A ",
+        "  A  I  AA     J     HG GH     J     AA  I  A ",
+        "  A   I  A    JEJ    HG GH    JEJ    A  I   A ",
+        "   A  I  AA    J     HG GH     J    AA  I  A  ",
+        "   A   I  A          HG GH          A  I   A  ",
+        "    A  I   A         HG GH         A   I  A   ",
+        "    A   I   A        HG GH        A   I   A   ",
+        "     A   I   AA      HG GH      AA   I   A    ",
+        "      A   I   AAA    IG GI    AAA   I   A     ",
+        "       A   I    AAA AI   IA AAA    I   A      ",
+        "        A   II     AAE   EAA     II   A       ",
+        "         A    II               II    A        ",
+        "          A     III         III     A         ",
+        "           AA      IIIIIIIII      AA          ",
+        "             AA                 AA            ",
+        "               AAAA         AAAA              ",
+        "                   AAAAAAAAA                  "
+      ],
+      [
+        "                   AAAAAAAAA                  ",
+        "               AAAA         AAAA              ",
+        "             AA    HHHHHHHHH    AA            ",
+        "           AA   HHHDDDDDDDDDHHH   AA          ",
+        "          A   HHDDDHHHHHHHHHDDDHH   A         ",
+        "         A  HHDDHHH         HHHDDHH  A        ",
+        "        A  HDDHH   AAE   EAA   HHDDH  A       ",
+        "       A  HDHH   AA AI   IA AA   HHDH  A      ",
+        "      A  HDH   AA    J   J    AA   HDH  A     ",
+        "     A  HDH  AA      J   J      AA  HDH  A    ",
+        "    A  HDH  A        J   J        A  HDH  A   ",
+        "    A HDH  A         J   J         A  HDH A   ",
+        "   A  HDH A    J     B   B     J    A HDH  A  ",
+        "   A HDH  A   CEC    J   J    CEC   A  HDH A  ",
+        "  A  HDH A   JEBEJ   J   J   JEBEJ   A HDH  A ",
+        "  A HDH  A    CEC    J   J    CEC    A  HDH A ",
+        "  A HDH A      J     J   J     J      A HDH A ",
+        "  A HDH A           AI   IA           A HDH A ",
+        "A HDH A             J     J            A HDH A",
+        "A HDH AA          AJ       JA         AA HDH A",
+        "A HDH EIJJJJBJJJJI     J    IJJJJBJJJJIE HDH A",
+        "A HDH                 JFJ                HDH A",
+        "A HDH                JFBFJ               HDH A",
+        "A HDH                 JFJ                HDH A",
+        "A HDH EIJJJJBJJJJI     J    IJJJJBJJJJIE HDH A",
+        "A HDH AA          AJ       JA         AA HDH A",
+        "A HDH A             J     J            A HDH A",
+        "  A HDH A           AI   IA           A HDH A ",
+        "  A HDH A      J     J   J     J      A HDH A ",
+        "  A HDH  A    CEC    J   J    CEC    A  HDH A ",
+        "  A  HDH A   JEBEJ   J   J   JEBEJ   A HDH  A ",
+        "   A HDH  A   CEC    J   J    CEC   A  HDH A  ",
+        "   A  HDH A    J     B   B     J    A HDH  A  ",
+        "    A HDH  A         J   J         A  HDH A   ",
+        "    A  HDH  A        J   J        A  HDH  A   ",
+        "     A  HDH  AA      J   J      AA  HDH  A    ",
+        "      A  HDH   AA    J   J    AA   HDH  A     ",
+        "       A  HDHH   AA AI   IA AA   HHDH  A      ",
+        "        A  HDDHH   AAE   EAA   HHDDH  A       ",
+        "         A  HHDDHHH         HHHDDHH  A        ",
+        "          A   HHDDDHHHHHHHHHDDDHH   A         ",
+        "           AA   HHHDDDDDDDDDHHH   AA          ",
+        "             AA    HHHHHHHHH    AA            ",
+        "               AAAA         AAAA              ",
+        "                   AAAA@AAAA                  "
+      ],
+      [
+        "                   AAAAAAAAA                  ",
+        "               AAAA         AAAA              ",
+        "             AA                 AA            ",
+        "           AA      IIIIIIIII      AA          ",
+        "          A     III         III     A         ",
+        "         A    II               II    A        ",
+        "        A   II     AAE   EAA     II   A       ",
+        "       A   I     AA AI   IA AA     I   A      ",
+        "      A   I    AA    IG GI    AA    I   A     ",
+        "     A   I   AA      HG GH      AA   I   A    ",
+        "    A   I   A        HG GH        A   I   A   ",
+        "    A  I   A         HG GH         A   I  A   ",
+        "   A   I  A          HG GH          A  I   A  ",
+        "   A  I   A    J     HG GH     J    A   I  A  ",
+        "  A   I  A    JEJ    HG GH    JEJ    A  I   A ",
+        "  A  I   A     J     HG GH     J     A   I  A ",
+        "  A  I  A            IG GI            A  I  A ",
+        "  A  I  A           AI   IA           A  I  A ",
+        "A  I  A             J     J            A  I  A",
+        "A  I  AA          AJ       JA         AA  I  A",
+        "A  I  EIIHHHHHHHII          IHHHHHHHHIIE  I  A",
+        "A  I    GGGGGGGGG      J     GGGGGGGGG    I  A",
+        "A  I                  JFJ                 I  A",
+        "A  I    GGGGGGGGG      J     GGGGGGGGG    I  A",
+        "A  I  EIIHHHHHHHII          IHHHHHHHHIIE  I  A",
+        "A  I  AA          AJ       JA         AA  I  A",
+        "A  I  A             J     J            A  I  A",
+        "  A  I  A           AI   IA           A  I  A ",
+        "  A  I  A            IG GI            A  I  A ",
+        "  A  I   A     J     HG GH     J     A   I  A ",
+        "  A   I  A    JEJ    HG GH    JEJ    A  I   A ",
+        "   A  I   A    J     HG GH     J    A   I  A  ",
+        "   A   I  A          HG GH          A  I   A  ",
+        "    A  I   A         HG GH         A   I  A   ",
+        "    A   I   A        HG GH        A   I   A   ",
+        "     A   I   AA      HG GH      AA   I   A    ",
+        "      A   I    AA    IG GI    AA    I   A     ",
+        "       A   I     AA AI   IA AA     I   A      ",
+        "        A   II     AAE   EAA     II   A       ",
+        "         A    II               II    A        ",
+        "          A     III         III     A         ",
+        "           AA      IIIIIIIII      AA          ",
+        "             AA                 AA            ",
+        "               AAAA         AAAA              ",
+        "                   AAAAAAAAA                  "
+      ],
+      [
+        "                                              ",
+        "                   JJJJJJJJJ                  ",
+        "               AJJJ         JJJA              ",
+        "             JJJ               JJJ            ",
+        "           AJ                     JA          ",
+        "          JJ       JJJJJJJJJ       JJ         ",
+        "         J      JJJ  AFFFA  JJJ      J        ",
+        "        J     JJA    AIIIA    AJJ     J       ",
+        "       J     JA       IJI       AJ     J      ",
+        "      J     J         HJH         J     J     ",
+        "     AJ    J          HJH          J    JA    ",
+        "     J    J           HJH           J    J    ",
+        "    J    J            HBH            J    J   ",
+        "    J   JA            HJH            AJ   J   ",
+        "   AJ   J      J      HJH      J      J   JA  ",
+        "   J   JA             HJH             AJ   J  ",
+        "   J   J              IJI              J   J  ",
+        "   J   J             AIIIA             J   J  ",
+        "  J   J             CJ   JC             J   J ",
+        "  J   J            C       C            J   J ",
+        "  J   J A         AJ       JA         A J   J ",
+        "  J   JFIIHHHHHHHII         IHHHHHHHHIIFJ   J ",
+        "  J   JFIJJJJBJJJJI    J    IJJJJBJJJJIFJ   J ",
+        "  J   JFIIHHHHHHHII         IHHHHHHHHIIFJ   J ",
+        "  J   J A         AJ       JA         A J   J ",
+        "  J   J            C       C            J   J ",
+        "  J   J             CJ   JC             J   J ",
+        "   J   J             AIIIA             J   J  ",
+        "   J   J              IJI              J   J  ",
+        "   J   JA             HJH             AJ   J  ",
+        "   AJ   J      J      HJH      J      J   JA  ",
+        "    J   JA            HJH            AJ   J   ",
+        "    J    J            HBH            J    J   ",
+        "     J    J           HJH           J    J    ",
+        "     AJ    J          HJH          J    JA    ",
+        "      J     J         HJH         J     J     ",
+        "       J     JA       IJI       AJ     J      ",
+        "        J     JJA    AIIIA    AJJ     J       ",
+        "         J      JJJ   FFF   JJJ      J        ",
+        "          JJ       JJJJJJJJJ       JJ         ",
+        "           AJ                     JA          ",
+        "             JJJ               JJJ            ",
+        "               AJJJ         JJJA              ",
+        "                   JJJJJJJJJ                  ",
+        "                                              "
+      ],
+      [
+        "                                              ",
+        "                                              ",
+        "                   AAAAAAAAA                  ",
+        "                AAAAAAACAAAAAAA               ",
+        "             AAAACAAAAAAAAAAACAAAA            ",
+        "            AAAAAAA         AAAAAAA           ",
+        "          AAAAAA               AAAAAA         ",
+        "         AAACA        AAA        ACAAA        ",
+        "        AAAAA                     AAAAA       ",
+        "       AAAAA                       AAAAA      ",
+        "       AAAA                         AAAA      ",
+        "      AACA                           ACAA     ",
+        "     AAAA                             AAAA    ",
+        "     AAA                               AAA    ",
+        "     AAA                               AAA    ",
+        "    AAA                                 AAA   ",
+        "    ACA                                 ACA   ",
+        "    AAA               AAA               AAA   ",
+        "   AAA               JJJJJ               AAA  ",
+        "   AAA              J     J              AAA  ",
+        "   AAA             J       J             AAA  ",
+        "   AAA  A         AJ       JA         A  AAA  ",
+        "   ACA  A         AJ       JA         A  ACA  ",
+        "   AAA  A         AJ       JA         A  AAA  ",
+        "   AAA             J       J             AAA  ",
+        "   AAA              J     J              AAA  ",
+        "   AAA               JJJJJ               AAA  ",
+        "    AAA               AAA               AAA   ",
+        "    ACA                                 ACA   ",
+        "    AAA                                 AAA   ",
+        "     AAA                               AAA    ",
+        "     AAA                               AAA    ",
+        "     AAAA                             AAAA    ",
+        "      AACA                           ACAA     ",
+        "       AAAA                         AAAA      ",
+        "       AAAAA                       AAAAA      ",
+        "        AAAAA                     AAAAA       ",
+        "         AAACA        AAA        ACAAA        ",
+        "          AAAAAA               AAAAAA         ",
+        "            AAAAAAA         AAAAAAA           ",
+        "             AAAACAAAAAAAAAAACAAAA            ",
+        "                AAAAAAACAAAAAAA               ",
+        "                   AAAAAAAAA                  ",
+        "                                              ",
+        "                                              "
+      ],
+      [
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                     JJJJJ                    ",
+        "                    JJ   JJ                   ",
+        "                    J     J                   ",
+        "                    J     J                   ",
+        "                    J     J                   ",
+        "                    JJ   JJ                   ",
+        "                     JJJJJ                    ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              "
+      ],
+      [
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                      JJJ                     ",
+        "                     JJJJJ                    ",
+        "                     JJJJJ                    ",
+        "                     JJJJJ                    ",
+        "                      JJJ                     ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              ",
+        "                                              "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "sakuracloud:sky_of_fantasy",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "prodigytech:zorrasteel_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "minecraft:sea_lantern",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "extendedcrafting:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "mekanism:glowplasticblock",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "minecraft:sea_lantern",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "I": {
+        "capability": "forge_energy",
+        "type": "capability"
+      },
+      "any": {
+        "type": "any"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "minecraft:barrier",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ]
+    }
+  }
+}

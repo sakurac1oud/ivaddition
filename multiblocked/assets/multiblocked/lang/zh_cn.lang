@@ -74,6 +74,12 @@ tile.sakuracloud.astral_soul.name=星辉树木拟生场
 sakuracloud.astral_soul.description=星辉树木拟生场
 multiblocked.recipe_map.astral_soul=星辉树木拟生
 astral_soul.name=星辉树木拟生场
+tile.sakuracloud.overtime_miner.name=超维度矿物处理总成
+sakuracloud.overtime_miner.description=超维度矿物处理总成
+multiblocked.recipe_map.singularity_miner=奇点凝结
+overtime_miner.name=超维度矿物处理总成
+tile.sakuracloud.singularity_block.name=奇点凝结器
+singularity_block.name=奇点凝结器
 tile.sakuracloud.energy_hatch.name=完全没用的能量接口？
 energy_hatch.name=完全没用的能量接口？
 

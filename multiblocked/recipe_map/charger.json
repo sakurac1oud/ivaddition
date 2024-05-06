@@ -5,17 +5,42 @@
   "fuelThreshold": 100,
   "recipes": [
     {
-      "uid": "7996f5ee-fa3a-49fd-a1bb-944aff6b47fc",
-      "duration": 100,
+      "uid": "3b40fd5e-2368-4e9a-b7be-75d7922e00b2",
+      "duration": 64,
       "inputs": {
         "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ivonesky:gearmould\",Count:1,Damage:0s}"
+              ]
+            }
+          },
           {
             "chance": 1.0,
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"actuallyadditions:block_crystal\",Count:64,Damage:1s}"
+                "{id:\"extendedcrafting:material\",Count:64,Damage:0s}"
               ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"extendedcrafting:material\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1024,
+              "ore": "cobblestone"
             }
           }
         ]
@@ -25,9 +50,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 64,
+              "amount": 128,
               "matches": [
-                "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:1s}"
+                "{id:\"contenttweaker:yanjiu2\",Count:128,Damage:0s}"
               ]
             }
           }
@@ -37,14 +62,14 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 500000
+            "content": 320000
           }
         ]
       }
     },
     {
       "uid": "821c5e0b-c07e-4791-b243-875b51c80570",
-      "duration": 6000,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -156,7 +181,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 10000000
+            "content": 100000000
           }
         ]
       }
@@ -203,6 +228,359 @@
                 "{id:\"storagedrawers:upgrade_creative\",Count:4,Damage:0s}"
               ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "30b5ff56-236f-4397-b2bc-6dafca901a0b",
+      "duration": 500,
+      "inputs": {
+        "item": [
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ivonesky:gearmould\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 512,
+              "ore": "itemSilicon"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 512,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:512,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 512,
+              "matches": [
+                "{id:\"actuallyadditions:item_crystal_empowered\",Count:512,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:yanjiu6\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 640000000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bb1375bc-15df-4c9c-a6b1-9cc42d5439d6",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c952a24f-10a9-4ce0-8cd5-cbac0be945cd",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 640,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:640,Damage:9s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:256,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:128,Damage:14s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 512,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:512,Damage:7s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 192000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:yanjiu5\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b8498e9f-4ffe-49f5-a620-f4b929a3fd0e",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal\",Count:64,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7996f5ee-fa3a-49fd-a1bb-944aff6b47fc",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal\",Count:64,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6498f6a5-a5b5-4317-8b1c-ce3f3d700dfc",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4096,
+              "matches": [
+                "{id:\"contenttweaker:yanjiu2\",Count:4096,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2048,
+              "matches": [
+                "{id:\"contenttweaker:yanjiu1\",Count:2048,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1024,
+              "matches": [
+                "{id:\"contenttweaker:yanjiu6\",Count:1024,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"sakuracloud:singularity_block\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7873af8e-4bfa-4a04-9b43-e675c767beeb",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ivonesky:gearmould\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"magneticraft:light_plates\",Count:256,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"enderio:item_material\",Count:128,Damage:20s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1024,
+              "matches": [
+                "{id:\"minecraft:iron_ingot\",Count:1024,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:yanjiu1\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 600000
           }
         ]
       }
@@ -314,19 +692,10 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 5000
+            "content": 500000
           }
         ]
-      },
-      "conditions": [
-        {
-          "type": "pos_y",
-          "condition": {
-            "min": 0,
-            "max": 0
-          }
-        }
-      ]
+      }
     },
     {
       "uid": "9e843a68-e20c-49ce-84e3-b7f76ecf2397",
@@ -367,44 +736,6 @@
       }
     },
     {
-      "uid": "bb1375bc-15df-4c9c-a6b1-9cc42d5439d6",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"actuallyadditions:block_crystal\",Count:64,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500000
-          }
-        ]
-      }
-    },
-    {
       "uid": "54da70fe-16e0-480c-8704-9bcb003ef0f1",
       "duration": 100,
       "inputs": {
@@ -428,44 +759,6 @@
               "amount": 64,
               "matches": [
                 "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:3s}"
-              ]
-            }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 500000
-          }
-        ]
-      }
-    },
-    {
-      "uid": "b8498e9f-4ffe-49f5-a620-f4b929a3fd0e",
-      "duration": 100,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"actuallyadditions:block_crystal\",Count:64,Damage:2s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"actuallyadditions:block_crystal_empowered\",Count:64,Damage:2s}"
               ]
             }
           }
