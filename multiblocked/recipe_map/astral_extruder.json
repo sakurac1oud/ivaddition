@@ -56,10 +56,8 @@
           {
             "chance": 0.0,
             "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"environmentaltech:void_ore_miner_cont_1\",Count:4,Damage:0s}"
-              ]
+              "amount": 8,
+              "ore": "etLaserLens"
             }
           }
         ],
