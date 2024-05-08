@@ -24,7 +24,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -34,14 +42,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:14s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -69,7 +69,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -79,14 +87,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:0s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -111,7 +111,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -121,14 +129,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:6s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -153,7 +153,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -163,14 +171,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:10s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -195,7 +195,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -205,14 +213,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:7s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -237,7 +237,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -247,14 +255,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:12s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -279,7 +279,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -289,14 +297,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:13s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -321,7 +321,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -331,14 +339,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:9s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -363,7 +363,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -373,14 +381,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:11s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -405,7 +405,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -415,14 +423,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:3s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -447,7 +447,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -457,14 +465,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:5s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -489,7 +489,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -499,14 +507,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:2s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -531,7 +531,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -541,14 +549,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:8s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -579,7 +579,7 @@
           }
         ]
       },
-      "outputs": {
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -613,7 +613,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -623,14 +631,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:1s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }
@@ -655,7 +655,15 @@
           }
         ]
       },
-      "outputs": {
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "tickOutputs": {
         "item": [
           {
             "chance": 1.0,
@@ -665,14 +673,6 @@
                 "{id:\"pneumaticcraft:plastic\",Count:64,Damage:4s}"
               ]
             }
-          }
-        ]
-      },
-      "tickInputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 1500
           }
         ]
       }

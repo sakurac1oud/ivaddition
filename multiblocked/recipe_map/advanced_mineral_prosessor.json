@@ -1023,9 +1023,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 64,
+              "amount": 16384,
               "matches": [
-                "{id:\"appliedenergistics2:material\",Count:64,Damage:47s}"
+                "{id:\"appliedenergistics2:material\",Count:16384,Damage:47s}"
               ]
             }
           }
@@ -1034,7 +1034,7 @@
       "outputs": {
         "item": [
           {
-            "chance": 0.5,
+            "chance": 1.0,
             "content": {
               "amount": 1,
               "matches": [

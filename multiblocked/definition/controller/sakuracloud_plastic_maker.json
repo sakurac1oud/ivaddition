@@ -132,6 +132,14 @@
         ],
         "type": "states"
       },
+      "e": {
+        "blocks": [
+          {
+            "id": "extrautils2:ineffableglass"
+          }
+        ],
+        "type": "blocks"
+      },
       "F": {
         "states": [
           {
@@ -140,6 +148,14 @@
           }
         ],
         "type": "states"
+      },
+      "f": {
+        "blocks": [
+          {
+            "id": "pneumaticcraft:refinery"
+          }
+        ],
+        "type": "blocks"
       },
       "G": {
         "states": [
@@ -150,23 +166,13 @@
         ],
         "type": "states"
       },
-      "I": {
-        "states": [
-          {
-            "id": "pneumaticcraft:fluid.plastic",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "K": {
-        "states": [
+        "blocks": [
           {
-            "id": "thermalfoundation:fluid_pyrotheum",
-            "meta": 0
+            "id": "pneumaticcraft:plastic_mixer"
           }
         ],
-        "type": "states"
+        "type": "blocks"
       },
       "any": {
         "type": "any"
@@ -206,17 +212,19 @@
         "N"
       ],
       "E": [
-        "E"
+        "E",
+        "e"
       ],
       "F": [
-        "F"
+        "F",
+        "f"
       ],
       "G": [
         "G"
       ],
       "H": [],
       "I": [
-        "I"
+        "any"
       ],
       "J": [],
       "K": [
