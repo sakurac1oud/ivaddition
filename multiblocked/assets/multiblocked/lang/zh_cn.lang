@@ -78,8 +78,19 @@ tile.sakuracloud.overtime_miner.name=超维度矿物处理总成
 sakuracloud.overtime_miner.description=超维度矿物处理总成
 multiblocked.recipe_map.singularity_miner=奇点凝结
 overtime_miner.name=超维度矿物处理总成
+tile.sakuracloud.chemical_reactor.name=维度超越反应矩阵
+sakuracloud.chemical_reactor.description=维度超越反应矩阵
+multiblocked.recipe_map.chemical_reactor=维度超越
+chemical_reactor.name=维度超越反应矩阵
+tile.sakuracloud.data_provider.name=数据中心
+sakuracloud.data_provider.description=数据中心
+multiblocked.recipe_map.data_provider=数据中心
+data_provider.name=数据中心
 tile.sakuracloud.singularity_block.name=奇点凝结器
 singularity_block.name=奇点凝结器
 tile.sakuracloud.energy_hatch.name=完全没用的能量接口？
 energy_hatch.name=完全没用的能量接口？
+tile.sakuracloud.data.name =数据单元
+data.name =数据单元
+
 

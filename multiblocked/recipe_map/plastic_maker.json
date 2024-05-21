@@ -1,8 +1,7 @@
 {
-  "name": "plastic_maker",
+  "name": "chemical_reactor",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
-  "fuelThreshold": 100,
   "recipes": [
     {
       "uid": "16a28caf-da10-4b84-aaca-af6df9ffc50b",
@@ -132,6 +131,51 @@
           }
         ]
       }
+    },
+    {
+      "uid": "18e820af-2c9e-417e-9d2a-cafec5e1dd02",
+      "duration": 1200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"liquidfusionfuel\",Amount:64000000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"extendedcrafting:material\",Count:64,Damage:24s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "sakuracloud:singularity_block",
+              "meta": 0
+            },
+            "count": 4
+          }
+        }
+      ]
     },
     {
       "uid": "903b1354-682c-4efc-8e1d-f2ebdbb5afe2",

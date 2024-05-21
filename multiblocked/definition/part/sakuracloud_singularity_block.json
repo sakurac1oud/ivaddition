@@ -3,14 +3,21 @@
   "location": "sakuracloud:singularity_block",
   "traits": {
     "background": "multiblocked:textures/machine_casing_stable_titanium.png",
-    "projecte_emc": {
-      "x": 5,
-      "y": 5,
-      "width": 60,
-      "height": 18,
-      "textType": 3
-    },
-    "item": []
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "x": 79,
+        "y": 32,
+        "autoIO": false,
+        "tC": 999999999,
+        "w": 18,
+        "h": 18,
+        "tex": "multiblocked:textures/unkown.png",
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
   },
   "properties": {
     "rotationState": "ALL",
