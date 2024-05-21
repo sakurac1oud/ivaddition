@@ -2,7 +2,6 @@
   "name": "charger",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
-  "fuelThreshold": 100,
   "recipes": [
     {
       "uid": "3b40fd5e-2368-4e9a-b7be-75d7922e00b2",
@@ -63,6 +62,50 @@
           {
             "chance": 1.0,
             "content": 320000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "85ad3b86-f39e-4c3e-bee1-8b115ca15916",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "gemDiamond"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "itemSilicon"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:128,Damage:24s}"
+              ]
+            }
           }
         ]
       }
@@ -296,6 +339,54 @@
       }
     },
     {
+      "uid": "879baf16-6076-4172-a234-8e3646d7fbd8",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:64,Damage:0s}",
+                "{id:\"appliedenergistics2:material\",Count:64,Damage:1s}",
+                "{id:\"appliedenergistics2:material\",Count:64,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "itemSilicon"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:128,Damage:23s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "bb1375bc-15df-4c9c-a6b1-9cc42d5439d6",
       "duration": 100,
       "inputs": {
@@ -504,6 +595,12 @@
               ]
             }
           }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500000000
+          }
         ]
       },
       "outputs": {
@@ -511,9 +608,55 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 8,
+              "amount": 32,
               "matches": [
-                "{id:\"sakuracloud:singularity_block\",Count:8,Damage:0s}"
+                "{id:\"sakuracloud:singularity_block\",Count:32,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "787c4a61-7961-4ae8-9e94-dac5dc6edb0a",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:gold_ingot\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "itemSilicon"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:128,Damage:22s}"
               ]
             }
           }

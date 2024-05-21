@@ -2,11 +2,10 @@
   "name": "astral_extruder",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
-  "fuelThreshold": 100,
   "recipes": [
     {
       "uid": "14e44bd7-f61a-4d84-9c26-e6413e5fbd5d",
-      "duration": 1200,
+      "duration": 120,
       "inputs": {
         "item": [
           {
@@ -86,7 +85,7 @@
     },
     {
       "uid": "dbcf0e3b-ad13-438d-adbc-aee03415a108",
-      "duration": 2400,
+      "duration": 240,
       "inputs": {
         "item": [
           {
@@ -315,7 +314,7 @@
     },
     {
       "uid": "d7ff7357-ad47-4ddb-9320-e4e36542011a",
-      "duration": 600,
+      "duration": 60,
       "inputs": {
         "starlight_as": [
           {
