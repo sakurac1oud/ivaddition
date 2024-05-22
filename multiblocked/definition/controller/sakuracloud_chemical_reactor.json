@@ -255,6 +255,10 @@
         ],
         "type": "blocks"
       },
+      "G": {
+        "capability": "fluid",
+        "type": "capability"
+      },
       "any": {
         "type": "any"
       }
@@ -292,7 +296,8 @@
         "d"
       ],
       "H": [
-        "g"
+        "g",
+        "G"
       ]
     }
   }

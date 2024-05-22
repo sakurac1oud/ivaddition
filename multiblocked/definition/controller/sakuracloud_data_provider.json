@@ -132,6 +132,10 @@
         ],
         "type": "states"
       },
+      "a": {
+        "capability": "item",
+        "type": "capability"
+      },
       "controller": {
         "location": "sakuracloud:data_provider",
         "type": "component"
@@ -145,8 +149,9 @@
         ],
         "type": "states"
       },
-      "air": {
-        "type": "air"
+      "b": {
+        "capability": "forge_energy",
+        "type": "capability"
       },
       "any": {
         "type": "any"
@@ -163,10 +168,9 @@
         "A"
       ],
       "B": [
-        "B"
-      ],
-      "-": [
-        "air"
+        "a",
+        "B",
+        "b"
       ]
     }
   }
