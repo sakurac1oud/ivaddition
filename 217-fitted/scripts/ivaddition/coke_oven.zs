@@ -22,7 +22,7 @@ import mods.modularmachinery.RecipeModifierBuilder;
 
 // coke_oven("coke",120,<ore:logWood>,<immersiveengineering:material:6>*2);
 
-RecipeBuilder.newBuilder('coke','ivaddition_coke_oven',200)
+RecipeBuilder.newBuilder('coke','ivaddition_coke_oven',100)
         .addInput(<ore:logWood>)
         .addOutput(<immersiveengineering:material:6>*8)
         .addRecipeTooltip('以深渊之神的名义将你彻底吞噬')
@@ -34,6 +34,21 @@ RecipeAdapterBuilder.create('ivaddition_coke_oven','minecraft:furnace')
                     .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input", 0, 1, false).build())
                     .addRecipeTooltip('以深渊之神的名义将你彻底吞噬',"受到某种神秘力量的影响","热能可以自己聚集并且较快的烧制")
                     .addInput(<minecraft:furnace>).setChance(0)
+                    .build();
+                
+RecipeAdapterBuilder.create('ivaddition_coke_oven','minecraft:furnace')
+                    .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.5, 1, false).build())
+                    .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input", 0, 1, false).build())
+                    .addRecipeTooltip('以深渊之神的名义将你彻底吞噬',"受到某种神秘力量的影响","热能可以自己聚集并且较快的烧制")
+                    .addInput(<thermalexpansion:machine>).setChance(0)
+                    .build();
+
+RecipeAdapterBuilder.create('ivaddition_coke_oven','minecraft:furnace')
+                    .addModifier(RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.01, 1, false).build())
+                    .addModifier(RecipeModifierBuilder.create("modularmachinery:energy", "input", 0, 1, false).build())
+                    .addModifier(RecipeModifierBuilder.create("modularmachinery:item", "output", 2, 1, false).build())
+                    .addRecipeTooltip('以深渊之神的名义将你彻底吞噬',"受到某种神秘力量的影响","热能可以自己聚集并且较快的烧制")
+                    .addInput(<blockbooster:booster_t2>).setChance(0)
                     .build();
 
 furnace.remove(<galacticraftcore:basic_item:5>,null);

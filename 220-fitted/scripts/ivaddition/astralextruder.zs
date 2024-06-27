@@ -6,7 +6,7 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.IngredientArrayBuilder;
 
-RecipeBuilder.newBuilder("diyuyan","ivaddition_astral_extruder",120)
+RecipeBuilder.newBuilder("diyuyan","ivaddition_astral_extruder",6)
         .addInputs([<minecraft:redstone>*16])
         .addOutputs([<minecraft:netherrack>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
@@ -17,7 +17,7 @@ RecipeBuilder.newBuilder("diyuyan","ivaddition_astral_extruder",120)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder("shazi","ivaddition_astral_extruder",120)
+RecipeBuilder.newBuilder("shazi","ivaddition_astral_extruder",12)
         .addOutputs([<minecraft:sand>*16])
         .addOutput(<astralsorcery:blockcustomsandore>*4)
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
@@ -29,6 +29,7 @@ RecipeBuilder.newBuilder("shazi","ivaddition_astral_extruder",120)
         .build();
 
 RecipeBuilder.newBuilder("yuanshi","ivaddition_astral_extruder",10)
+        .addInput(<minecraft:cobblestone>).setChance(0)
         .addOutputs([<minecraft:cobblestone>*128,<minecraft:obsidian>*32])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
         .addRecipeTooltip("亲眼确认，亲眼观测,亲身拥抱满天繁星")
@@ -38,7 +39,18 @@ RecipeBuilder.newBuilder("yuanshi","ivaddition_astral_extruder",10)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder("sanfeishi","ivaddition_astral_extruder",160)
+RecipeBuilder.newBuilder("ninghuiyan","ivaddition_astral_extruder",10)
+        .addInput(<extrautils2:teleporter:1>).setChance(0)
+        .addOutputs([<chisel:limestone2:7>*128])
+        .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
+        .addRecipeTooltip("亲眼确认，亲眼观测,亲身拥抱满天繁星")
+        .addFluidInput(<liquid:lava>*1000).setChance(0.25)
+        .addFluidInput(<liquid:water>*1000).setChance(0.25)
+        .addStarlightInput(1800)
+        .setParallelized(true)
+        .build();
+
+RecipeBuilder.newBuilder("sanfeishi","ivaddition_astral_extruder",8)
         .addOutputs([<minecraft:stone:3>*16,<minecraft:stone:1>*16,<minecraft:stone:5>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
         .addRecipeTooltip("亲眼确认，亲眼观测,亲身拥抱满天繁星")
@@ -48,7 +60,7 @@ RecipeBuilder.newBuilder("sanfeishi","ivaddition_astral_extruder",160)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder("yunshi","ivaddition_astral_extruder",160)
+RecipeBuilder.newBuilder("yunshi","ivaddition_astral_extruder",8)
         .addInputs([<appliedenergistics2:material:45>*16])
         .addOutputs([<appliedenergistics2:sky_stone_block>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
@@ -59,7 +71,7 @@ RecipeBuilder.newBuilder("yunshi","ivaddition_astral_extruder",160)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder("dalishi","ivaddition_astral_extruder",400)
+RecipeBuilder.newBuilder("dalishi","ivaddition_astral_extruder",5)
         .addInputs([<minecraft:stone>*8])
         .addOutputs([<astralsorcery:blockmarble>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
@@ -69,7 +81,7 @@ RecipeBuilder.newBuilder("dalishi","ivaddition_astral_extruder",400)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder('modishi','ivaddition_astral_extruder',160)
+RecipeBuilder.newBuilder('modishi','ivaddition_astral_extruder',8)
         .addInputs([<minecraft:glowstone>*16])
         .addOutputs([<minecraft:end_stone>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
@@ -80,7 +92,7 @@ RecipeBuilder.newBuilder('modishi','ivaddition_astral_extruder',160)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder('linghunsha','ivaddition_astral_extruder',160)
+RecipeBuilder.newBuilder('linghunsha','ivaddition_astral_extruder',8)
         .addInputs([<minecraft:sand>*16])
         .addOutputs([<minecraft:soul_sand>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")
@@ -91,7 +103,7 @@ RecipeBuilder.newBuilder('linghunsha','ivaddition_astral_extruder',160)
         .setParallelized(true)
         .build();
 
-RecipeBuilder.newBuilder('haijingdneg','ivaddition_astral_extruder',160)
+RecipeBuilder.newBuilder('haijingdneg','ivaddition_astral_extruder',8)
         .addInputs([<minecraft:prismarine_shard>*64])
         .addOutputs([<minecraft:sea_lantern>*16])
         .addRecipeTooltip("穿过无尽的光年，在晴朗的夜色中，星星闪闪发亮")

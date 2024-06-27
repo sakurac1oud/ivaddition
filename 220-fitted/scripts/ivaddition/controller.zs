@@ -56,7 +56,10 @@ ResearchTable.builder('ivaddition_coke_oven', ivaddition_controller)
 					.setRewardStages('ivaddition_coke_oven')
 					.build();
 
-<modularmachinery:ivaddition_coke_oven_controller>.addTooltip(format.bold(format.gold('机器类型：'))+format.bold(format.blue('焦炉|熔炉|物质重构者')),format.gray('从深渊深处获取能量，在机器内部进行聚合，对输入的物品进行彻底改造'),format.obfuscated(format.red('不需要能量输入！')));
+<modularmachinery:ivaddition_coke_oven_controller>.addTooltip(format.bold('机器类型：'));
+<modularmachinery:ivaddition_coke_oven_controller>.addTooltip(format.blue('焦炉|熔炉|物质重构者'));
+<modularmachinery:ivaddition_coke_oven_controller>.addTooltip(format.gray('从深渊深处获取能量，在机器内部进行聚合，对输入的物品进行彻底改造'));
+<modularmachinery:ivaddition_coke_oven_controller>.addTooltip(format.red('不需要能量输入！'));
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ivaddition_coke_oven_controller>, [
 	[<actuallyadditions:block_crystal_empowered:3>, <contenttweaker:ivaddition_2>, <immersiveengineering:stone_decoration:2>, <contenttweaker:ivaddition_2>, <actuallyadditions:block_crystal_empowered:3>],
