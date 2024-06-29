@@ -13,6 +13,17 @@ import ResearchTable.Builder;
 
 var ivaddition_controller = ResearchTable.addCategory(<contenttweaker:ivaddition_4>, "樱云的iv奇怪附属控制器");
 
+//sky_of_fantasy
+mods.ItemStages.addItemStage('ivaddition_sky_of_fantasy',<modularmachinery:ivaddition_sky_of_fantasy_controller>);
+ResearchTable.builder('ivaddition_super_sieve', ivaddition_controller)
+					.setIcons(<modularmachinery:ivaddition_super_sieve_controller>)
+					.setTitle("奇迹顶点")
+					.addCondition(<contenttweaker:ivaddition_3>,64)
+					.setRewardStages('ivaddition_sky_of_fantasy')
+					.build();
+
+mods.astralsorcery.Altar.addTraitAltarRecipe("mypackname:shaped/internal/altar/seemsalotforjusttnt", <modularmachinery:ivaddition_sky_of_fantasy_controller>, 7000, 100,[<contenttweaker:ivaddition_3>,<contenttweaker:ivaddition_ingot_3>,<contenttweaker:ivaddition_3>,<contenttweaker:ivaddition_ingot_3>,<extendedcrafting:frame>,<contenttweaker:ivaddition_ingot_3>,<contenttweaker:ivaddition_3>,<contenttweaker:ivaddition_ingot_3>,<contenttweaker:ivaddition_3>,<appliedenergistics2:molecular_assembler>,<appliedenergistics2:molecular_assembler>,<appliedenergistics2:molecular_assembler>,<appliedenergistics2:molecular_assembler>,<thermalexpansion:frame>,<thermalexpansion:frame>,<thermalexpansion:frame>,<thermalexpansion:frame>,<thermalexpansion:frame>,<thermalexpansion:frame>,<thermalexpansion:frame>,<thermalexpansion:frame>,<prodigytech:zorrasteel_block>,<prodigytech:zorrasteel_block>,<prodigytech:zorrasteel_block>,<prodigytech:zorrasteel_block>,<contenttweaker:ivaddition_2>,<contenttweaker:ivaddition_2>,<contenttweaker:ivaddition_2>,<contenttweaker:ivaddition_2>,<contenttweaker:ivaddition_1>,<contenttweaker:ivaddition_1>,<contenttweaker:ivaddition_1>,<contenttweaker:ivaddition_1>],'astralsorcery.constellation.evorsio');
+
 //supersieve
 mods.ItemStages.addItemStage('ivaddition_super_sieve',<modularmachinery:ivaddition_super_sieve_controller>);
 ResearchTable.builder('ivaddition_super_sieve', ivaddition_controller)

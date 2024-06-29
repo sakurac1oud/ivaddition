@@ -23,7 +23,7 @@ supersieve("shazi",20,4000,[<ore:gravel>],[<minecraft:prismarine_shard> * 16,<ac
 
 supersieve("shali",20,4000,[<minecraft:cobblestone>],[<exnihilocreatio:item_ore_thorium:1 >*2,<exnihilocreatio:item_ore_platinum:1>*2,<exnihilocreatio:item_ore_osmium:1>*2,<exnihilocreatio:item_ore_gold:1>*2,<exnihilocreatio:item_ore_iron:1>*2,<exnihilocreatio:item_ore_copper:1>*2,<exnihilocreatio:item_ore_nickel:1>*2,<exnihilocreatio:item_ore_uranium:1>*2,<exnihilocreatio:item_ore_titanium:1>*2,<minecraft:dye:4>*16,<minecraft:diamond>*2,<minecraft:emerald>*4]);
 
-supersieve("linghunsha",20,4000,[<minecraft:soul_sand>],[<minecraft:quartz>*8,<minecraft:ghast_tear>*2]);
+supersieve("linghunsha",20,4000,[<minecraft:soul_sand>],[<minecraft:quartz>,<minecraft:ghast_tear>]);
 
 supersieve("diyuyan",20,4000,[<minecraft:netherrack>],[<exnihilocreatio:item_ore_cobalt:1>*2,<exnihilocreatio:item_ore_ardite:1>*2,<exnihilocreatio:item_ore_tungsten:1>*2,
 <exnihilocreatio:item_ore_gold:1>*2,<draconicevolution:draconium_dust>*4]);

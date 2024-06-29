@@ -74,6 +74,23 @@ mods.immersiveengineering.CokeOven.addRecipe(<contenttweaker:ivaddition_ingot_2>
 RecipeBuilder.newBuilder('xinyuanjingcu','ivaddition_star_grail_plus',600)
                 .addInputs(<contenttweaker:ivaddition_1>)
                 .addFluidInput(<liquid:astralsorcery.liquidstarlight>*1000)
-                .addOutput(<contenttweaker:ivaddition_3>).setChance(0.1)
+                .addOutput(<contenttweaker:ivaddition_3>).setChance(0.5)
+                .addRecipeTooltip("星光之路，璀璨之星")
+                .build();
+
+//精致樱云素粗胚
+RecipeBuilder.newBuilder('jingzhiyingyunsucupei','ivaddition_coke_oven',600)
+                .addInputs([<contenttweaker:ivaddition_ingot_2>*4,<contenttweaker:ivaddition_3>])
+                .addOutput(<contenttweaker:ivaddition_ingot_3>*3)
+                .addOutput(<contenttweaker:ivaddition_ingot_3>*2).setChance(0.5)
+                .addOutput(<contenttweaker:ivaddition_ingot_3>*2).setChance(0.25)
+                .addRecipeTooltip('以深渊之神的名义将你彻底吞噬',"受到某种神秘力量的影响","神秘物质的纯度变高了")
+                .build();
+
+//精致樱云素锭
+RecipeBuilder.newBuilder('jingzhiyingyunsucupei','ivaddition_star_grail_plus',600)
+                .addInputs(<contenttweaker:ivaddition_ingot_3>)
+                .addFluidInput(<liquid:astralsorcery.liquidstarlight>*1000)
+                .addOutput(<contenttweaker:ivaddition_ingot_4>)
                 .addRecipeTooltip("星光之路，璀璨之星")
                 .build();
