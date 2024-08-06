@@ -8,11 +8,6 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.RecipeAdapterBuilder;
 import mods.modularmachinery.RecipeModifierBuilder;
-import mods.ResearchTable;
-import ResearchTable.Category;
-import ResearchTable.Builder;
-
-var ivaddition_material = ResearchTable.addCategory(<contenttweaker:ivaddition_4>, "樱云的iv奇怪附属材料");
 
 var material as IItemStack[] = [
     <contenttweaker:ivaddition_2>,

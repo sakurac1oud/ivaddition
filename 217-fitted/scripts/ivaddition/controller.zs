@@ -7,17 +7,9 @@ import crafttweaker.item.IItemStack;
 import mods.extendedcrafting.TableCrafting as ECTC;
 import mods.astralsorcery.Altar as ASAltar;
 import mods.modularmachinery.IngredientArrayBuilder;
-import mods.ResearchTable;
-import ResearchTable.Category;
-import ResearchTable.Builder;
-
-var ivaddition_controller = ResearchTable.addCategory(<contenttweaker:ivaddition_4>, "樱云的iv奇怪附属控制器");
 
 //starlightning_tower
 mods.astralsorcery.Altar.addTraitAltarRecipe("mypackname:shaped/internal/altar/seemsalotforjusttnt", <modularmachinery:ivaddition_starlightning_tower_controller>, 7000, 100,[<contenttweaker:ivaddition_ingot_2>,<astralsorcery:itemcraftingcomponent:1>,<contenttweaker:ivaddition_ingot_2>,<astralsorcery:itemcraftingcomponent:1>,<modularmachinery:ivministar_controller>,<contenttweaker:ivaddition_1>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:ivaddition_1>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:ivaddition_ingot_2>,<contenttweaker:ivaddition_ingot_2>,<contenttweaker:ivaddition_1>,<contenttweaker:ivaddition_1>,null,null,<contenttweaker:bilibili>,<contenttweaker:bilibili>,null,null,null,null,<contenttweaker:bilibili>,null,null,<contenttweaker:ivaddition_2>]);
-
-
-
 
 <modularmachinery:ivaddition_stardust_controller>.addTooltip('这座机器的能力已经超越了维度');
 
