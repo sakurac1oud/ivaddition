@@ -1,0 +1,253 @@
+#packmode normal
+#reloadable
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.IngredientArrayBuilder;
+import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeModifierBuilder;
+
+// var ore as IItemStack[] = [
+//     <minecraft:glowstone_dust>*268435456,
+//     <minecraft:redstone>*268435456,
+//     <minecraft:blaze_powder>*268435456,
+//     <appliedenergistics2:material:45>*268435456,
+//     <enderio:item_material:20>*268435456,
+//     <minecraft:prismarine_shard> ,
+//     <actuallyadditions:item_misc:5> ,
+//     <exnihilocreatio:item_ore_zinc:1> ,
+//     <exnihilocreatio:item_ore_aluminium:1>*268435456,
+//     <exnihilocreatio:item_ore_silver:1>*268435456,
+//     <exnihilocreatio:item_ore_thorium:1>*268435456,
+//     <exnihilocreatio:item_ore_platinum:1>*268435456,
+//     <exnihilocreatio:item_ore_osmium:1>*268435456,
+//     <exnihilocreatio:item_ore_gold:1>*268435456,
+//     <exnihilocreatio:item_ore_iron:1>*268435456,
+//     <exnihilocreatio:item_ore_copper:1>*268435456,
+//     <exnihilocreatio:item_ore_nickel:1>*268435456,
+//     <exnihilocreatio:item_ore_uranium:1>*268435456,
+//     <exnihilocreatio:item_ore_titanium:1>*268435456,
+//     <minecraft:dye:4>*268435456,
+//     <minecraft:diamond>*268435456,
+//     <minecraft:emerald>*268435456,
+//     <minecraft:quartz>*268435456,
+//     <minecraft:ghast_tear>*268435456,
+//     <exnihilocreatio:item_ore_cobalt:1>*268435456,
+//     <exnihilocreatio:item_ore_ardite:1>*268435456,
+//     <exnihilocreatio:item_ore_tungsten:1>*268435456,
+//     <draconicevolution:draconium_dust>*268435456,
+//     <exnihilocreatio:item_ore_lead>*268435456,
+//     <exnihilocreatio:item_ore_magnesium:1>*268435456,
+//     <exnihilocreatio:item_ore_lithium:1>*268435456,
+//     <exnihilocreatio:item_ore_boron:1>*268435456,
+//     <exnihilocreatio:item_ore_iron:1>*268435456,
+//     <exnihilocreatio:item_ore_copper:1>*268435456,
+//     <minecraft:redstone>*268435456,
+//     <appliedenergistics2:material:1>*268435456,
+//     <appliedenergistics2:material>*268435456,
+//     <contenttweaker:ivaddition_ingot_2>*268435456,
+//     <contenttweaker:ivaddition_2>
+// ];
+
+RecipeBuilder.newBuilder('a',"ivaddition_stardust",1800)
+            .addInput(<contenttweaker:ivaddition_4>).setChance(0)
+            .addOutputs([
+    <minecraft:glowstone_dust>*128,
+    <minecraft:redstone>*128,
+    <minecraft:blaze_powder>*128,
+    <appliedenergistics2:material:45>*128,
+    <enderio:item_material:20>*128,
+    <minecraft:prismarine_shard>*128,
+    <actuallyadditions:item_misc:5>*128,
+    <exnihilocreatio:item_ore_zinc:1>*128,
+    <exnihilocreatio:item_ore_aluminium:1>*128,
+    <exnihilocreatio:item_ore_silver:1>*128,
+    <exnihilocreatio:item_ore_thorium:1>*128,
+    <exnihilocreatio:item_ore_platinum:1>*128,
+    <exnihilocreatio:item_ore_osmium:1>*128,
+    <exnihilocreatio:item_ore_gold:1>*128,
+    <exnihilocreatio:item_ore_iron:1>*128,
+    <exnihilocreatio:item_ore_copper:1>*128,
+    <exnihilocreatio:item_ore_nickel:1>*128,
+    <exnihilocreatio:item_ore_uranium:1>*128,
+    <exnihilocreatio:item_ore_titanium:1>*128,
+    <minecraft:dye:4>*128,
+    <minecraft:diamond>*128,
+    <minecraft:emerald>*128,
+    <minecraft:quartz>*128,
+    <minecraft:ghast_tear>*128,
+    <exnihilocreatio:item_ore_cobalt:1>*128,
+    <exnihilocreatio:item_ore_ardite:1>*128,
+    <exnihilocreatio:item_ore_tungsten:1>*128,
+    <draconicevolution:draconium_dust>*128,
+    <exnihilocreatio:item_ore_lead>*128,
+    <exnihilocreatio:item_ore_magnesium:1>*128,
+    <exnihilocreatio:item_ore_lithium:1>*128,
+    <exnihilocreatio:item_ore_boron:1>*128,
+    <exnihilocreatio:item_ore_iron:1>*128,
+    <exnihilocreatio:item_ore_copper:1>*128,
+    <minecraft:redstone>*128,
+    <appliedenergistics2:material:1>*128,
+    <appliedenergistics2:material>*128,
+    <contenttweaker:ivaddition_3>*128,
+    <contenttweaker:ivaddition_2>*128
+])
+            .addFluidPerTickInput(<liquid:astralsorcery.liquidstarlight>*200)
+            .addEnergyPerTickOutput(560000)
+            .addEnergyPerTickInput(500000)
+            .addRecipeTooltip('没关系，看着很变态，但是根本做不起')
+            .build();
+
+RecipeBuilder.newBuilder('b',"ivaddition_stardust",72000)
+            .addInput(<contenttweaker:ivaddition_ingot_5>*256)
+            .addOutputs([
+    <minecraft:glowstone_dust>*268435456,
+    <minecraft:redstone>*268435456,
+    <minecraft:blaze_powder>*268435456,
+    <appliedenergistics2:material:45>*268435456,
+    <enderio:item_material:20>*268435456,
+    <minecraft:prismarine_shard>*268435456,
+    <actuallyadditions:item_misc:5>*268435456,
+    <exnihilocreatio:item_ore_zinc:1>*268435456,
+    <exnihilocreatio:item_ore_aluminium:1>*268435456,
+    <exnihilocreatio:item_ore_silver:1>*268435456,
+    <exnihilocreatio:item_ore_thorium:1>*268435456,
+    <exnihilocreatio:item_ore_platinum:1>*268435456,
+    <exnihilocreatio:item_ore_osmium:1>*268435456,
+    <exnihilocreatio:item_ore_gold:1>*268435456,
+    <exnihilocreatio:item_ore_iron:1>*268435456,
+    <exnihilocreatio:item_ore_copper:1>*268435456,
+    <exnihilocreatio:item_ore_nickel:1>*268435456,
+    <exnihilocreatio:item_ore_uranium:1>*268435456,
+    <exnihilocreatio:item_ore_titanium:1>*268435456,
+    <minecraft:dye:4>*268435456,
+    <minecraft:diamond>*268435456,
+    <minecraft:emerald>*268435456,
+    <minecraft:quartz>*268435456,
+    <minecraft:ghast_tear>*268435456,
+    <exnihilocreatio:item_ore_cobalt:1>*268435456,
+    <exnihilocreatio:item_ore_ardite:1>*268435456,
+    <exnihilocreatio:item_ore_tungsten:1>*268435456,
+    <draconicevolution:draconium_dust>*268435456,
+    <exnihilocreatio:item_ore_lead>*268435456,
+    <exnihilocreatio:item_ore_magnesium:1>*268435456,
+    <exnihilocreatio:item_ore_lithium:1>*268435456,
+    <exnihilocreatio:item_ore_boron:1>*268435456,
+    <exnihilocreatio:item_ore_iron:1>*268435456,
+    <exnihilocreatio:item_ore_copper:1>*268435456,
+    <minecraft:redstone>*268435456,
+    <appliedenergistics2:material:1>*268435456,
+    <appliedenergistics2:material>*268435456,
+    <contenttweaker:ivaddition_3>*268435456,
+    <contenttweaker:ivaddition_2>*268435456,
+    <ore:ingotLead>*268435456
+])
+            .addFluidPerTickInput(<liquid:astralsorcery.liquidstarlight>*2000)
+            .addEnergyPerTickOutput(5600000)
+            .addEnergyPerTickInput(500000)
+            .addRecipeTooltip('没关系，看着很变态，但是根本做不起',"每tick需要2桶星能液，50w电，总共运行一小时（72000t）",'每种产物出268435456个')
+            .build();
+
+
+
+RecipeBuilder.newBuilder('c',"ivaddition_stardust",144000)
+            .addInputs([<contenttweaker:ivaddition_ingot_5>*256,<contenttweaker:ivaddition_ingot_4>*256,<contenttweaker:ivaddition_ingot_3>*256,<contenttweaker:ivaddition_ingot_2>*256,<contenttweaker:ivaddition_ingot_1>*256,<contenttweaker:ivaddition_4>*256,<contenttweaker:ivaddition_3>*256,<contenttweaker:ivaddition_2>*256,<contenttweaker:ivaddition_1>*256,<contenttweaker:yanjiu5>*256,<contenttweaker:yanjiu4>*256,<contenttweaker:yanjiu2>*256,<contenttweaker:yanjiu1>*256])
+            .addOutputs([
+<minecraft:iron_ingot>*536870912,
+<exnihilocreatio:item_ore_osmium:3>*536870912,
+<thermalfoundation:material:128>*536870912,
+<thermalfoundation:material:133>*536870912,
+<minecraft:gold_ingot>*536870912,
+<thermalfoundation:material:134>*536870912,
+<immersiveengineering:metal:5>*536870912,
+<thermalfoundation:material:130>*536870912,
+<techreborn:ingot:14>*536870912,
+<minecraft:quartz>*536870912,
+<techreborn:ingot:24>*536870912,
+<naturesaura:infused_iron>*536870912,
+<advanced_solar_panels:crafting:10>*536870912,
+<minecraft:dye:4>*536870912,
+<appliedenergistics2:material>*536870912,
+<nuclearcraft:ingot:6>*536870912,
+<nuclearcraft:ingot:3>*536870912,
+<nuclearcraft:ingot:7>*536870912,
+<tconstruct:ingots:1>*536870912,
+<thermalfoundation:material:136>*536870912,
+<thermalfoundation:material:162>*536870912,
+<thermalfoundation:material:166>*536870912,
+<extendedcrafting:material:7>*536870912,
+<appliedenergistics2:material:7>*536870912,
+<randomthings:ingredient:3>*536870912,
+<extendedcrafting:material>*536870912,
+<modularmachinery:itemmodularium>*536870912,
+<immersiveengineering:metal:8>*536870912,
+<pneumaticcraft:ingot_iron_compressed>*536870912,
+<magneticraft:ingots:14>*536870912,
+<magneticraft:ingots:5>*536870912,
+<thermalfoundation:material:131>*536870912,
+<appliedenergistics2:material:1>*536870912,
+<minecraft:redstone>*536870912,
+<thermalfoundation:material:132>*536870912,
+<advanced_solar_panels:crafting:3>*536870912,
+<tconstruct:ingots:4>*536870912,
+<tconstruct:ingots:2>*536870912,
+<thermalfoundation:material:167>*536870912,
+<thermalfoundation:material:166>*536870912,
+<thermalfoundation:material:165>*536870912,
+<thermalfoundation:material:164>*536870912,
+<thermalfoundation:material:162>*536870912,
+<avaritia:resource:1>*536870912,
+<avaritia:resource:4>*536870912,
+<deepmoblearning:glitch_infused_ingot>*536870912,
+<extendedcrafting:material:48>*536870912,
+<extendedcrafting:material:36>*536870912,
+<extendedcrafting:material:24>*536870912,
+<extrautils2:unstableingots:2>*536870912,
+<ic2:ingot:1>*536870912,
+<immersiveengineering:metal>*536870912,
+<tconstruct:ingots>*536870912,
+<thermalfoundation:material:133>*536870912,
+<naturesaura:sky_ingot>*536870912,
+<nuclearcraft:ingot:5>*536870912,
+<nuclearcraft:alloy:1>*536870912,
+<nuclearcraft:alloy:2>*536870912,
+<nuclearcraft:alloy:3>*536870912,
+<nuclearcraft:alloy:4>*536870912,
+<nuclearcraft:alloy:6>*536870912,
+<nuclearcraft:alloy:7>*536870912,
+<nuclearcraft:alloy:8>*536870912,
+<prodigytech:zorrasteel_ingot>*536870912,
+<techreborn:ingot:1>*536870912,
+<techreborn:ingot:3>*536870912,
+<techreborn:ingot:21>*536870912,
+<techreborn:ingot:22>*536870912,
+<techreborn:ingot:25>*536870912,
+<thermalfoundation:material:161>*536870912,
+<extrautils2:ingredients:11>*536870912,<enderio:item_alloy_endergy_ingot:2>*536870912,
+<enderio:item_alloy_endergy_ingot:1>*536870912,
+<enderio:item_alloy_endergy_ingot:3>*536870912,
+<enderio:item_alloy_endergy_ingot:4>*536870912,
+<enderio:item_alloy_endergy_ingot:5>*536870912,
+<enderio:item_alloy_endergy_ingot:6>*536870912,
+<mekanism:ingot:3>*536870912,
+<mekanism:ingot>*536870912,
+<enderio:item_alloy_ingot>*536870912,
+<enderio:item_alloy_ingot:9>*536870912,
+<enderio:item_alloy_ingot:8>*536870912,
+<enderio:item_alloy_ingot:7>*536870912,
+<enderio:item_alloy_ingot:5>*536870912,
+<enderio:item_alloy_ingot:6>*536870912,
+<enderio:item_alloy_ingot:4>*536870912,
+<enderio:item_alloy_ingot:3>*536870912,
+<enderio:item_alloy_ingot:2>*536870912,
+<enderio:item_alloy_ingot:1>*536870912,
+<techreborn:ingot:20>*536870912,
+<avaritia:resource:6>*536870912
+])
+            .addFluidPerTickInputs([<liquid:astralsorcery.liquidstarlight>*2000,<liquid:petrotheum>*2000,<liquid:aerotheum>*2000,<liquid:pyrotheum>*2000,<liquid:cryotheum>*2000,<liquid:liquidfusionfuel>*2000])
+            .addEnergyPerTickOutput(1073741824)
+            .addEnergyPerTickInput(888888)
+            .addRecipeTooltip('没关系看着很变态，但是根本做不起',"每tick需要2桶星能液,板块之层岩,飞扬之清风，极寒之凛冰,","89w电，总共运行两小时（144000t）",'每种产物出536870912个')
+            .build();

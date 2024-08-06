@@ -26,3 +26,15 @@ ivaddition_ingot_1.register();
 var ivaddition_ingot_2 as Item = VanillaFactory.createItem("ivaddition_ingot_2");
 ivaddition_ingot_2.rarity = "EPIC";
 ivaddition_ingot_2.register();
+
+var ivaddition_ingot_3 as Item = VanillaFactory.createItem("ivaddition_ingot_3");
+ivaddition_ingot_3.rarity = "EPIC";
+ivaddition_ingot_3.register();
+
+var ivaddition_ingot_4 as Item = VanillaFactory.createItem("ivaddition_ingot_4");
+ivaddition_ingot_4.rarity = "EPIC";
+ivaddition_ingot_4.register();
+
+var ivaddition_ingot_5 as Item = VanillaFactory.createItem("ivaddition_ingot_5");
+ivaddition_ingot_5.rarity = "EPIC";
+ivaddition_ingot_5.register();
