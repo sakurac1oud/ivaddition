@@ -9,7 +9,7 @@ import mods.astralsorcery.Altar as ASAltar;
 import mods.modularmachinery.IngredientArrayBuilder;
 
 //starlightning_tower
-mods.astralsorcery.Altar.addTraitAltarRecipe("mypackname:shaped/internal/altar/seemsalotforjusttnt", <modularmachinery:ivaddition_starlightning_tower_controller>, 7000, 100,[<contenttweaker:ivaddition_ingot_2>,<astralsorcery:itemcraftingcomponent:1>,<contenttweaker:ivaddition_ingot_2>,<astralsorcery:itemcraftingcomponent:1>,<modularmachinery:ivministar_controller>,<contenttweaker:ivaddition_1>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:ivaddition_1>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:ivaddition_ingot_2>,<contenttweaker:ivaddition_ingot_2>,<contenttweaker:ivaddition_1>,<contenttweaker:ivaddition_1>,null,null,<contenttweaker:bilibili>,<contenttweaker:bilibili>,null,null,null,null,<contenttweaker:bilibili>,null,null,<contenttweaker:ivaddition_2>]);
+mods.astralsorcery.Altar.addTraitAltarRecipe("mypackname:shaped/internal/altar/seemsalotforjusttnt", <modularmachinery:ivaddition_starlightning_tower_controller>, 7000, 100,[<contenttweaker:ivaddition_ingot_2>,<astralsorcery:itemcraftingcomponent:1>,<contenttweaker:ivaddition_ingot_2>,<astralsorcery:itemcraftingcomponent:1>,<modularmachinery:ivminieng_controller>,<contenttweaker:ivaddition_1>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:ivaddition_1>,<astralsorcery:itemcraftingcomponent:2>,<contenttweaker:ivaddition_ingot_2>,<contenttweaker:ivaddition_ingot_2>,<contenttweaker:ivaddition_1>,<contenttweaker:ivaddition_1>,null,null,<contenttweaker:bilibili>,<contenttweaker:bilibili>,null,null,null,null,<contenttweaker:bilibili>,null,null,<contenttweaker:ivaddition_2>]);
 
 <modularmachinery:ivaddition_stardust_controller>.addTooltip('这座机器的能力已经超越了维度');
 
@@ -67,9 +67,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ivaddition_wi
 
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:ivaddition_star_grail_plus_controller>, [
-	[<ore:ingotAstralStarmetal>, <astraladditions:block_starmetal>, <astraladditions:ring_astral>, <astraladditions:block_starmetal>, <ore:ingotAstralStarmetal>], 
+	[<ore:ingotAstralStarmetal>, <astraladditions:block_starmetal>, null, <astraladditions:block_starmetal>, <ore:ingotAstralStarmetal>], 
 	[<astraladditions:block_starmetal>, <ore:ingotAstralStarmetal>, <tconstruct:smeltery_controller>, <ore:ingotAstralStarmetal>, <astraladditions:block_starmetal>], 
-	[<ore:ingotAstralStarmetal>, <tconstruct:smeltery_controller>, <modularmachinery:star_grail_controller>, <tconstruct:smeltery_controller>, <ore:ingotAstralStarmetal>], 
+	[<ore:ingotAstralStarmetal>, <tconstruct:smeltery_controller>, null, <tconstruct:smeltery_controller>, <ore:ingotAstralStarmetal>], 
 	[<ore:dustAstralStarmetal>, <ore:ingotAstralStarmetal>, <tconstruct:smeltery_controller>, <ore:ingotAstralStarmetal>, <ore:dustAstralStarmetal>], 
 	[<ore:stoneMarble>, <ore:dustAstralStarmetal>, <ore:ingotAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:stoneMarble>]
 ]);
